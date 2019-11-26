@@ -16,5 +16,9 @@ def render_elements():
 def render_generic():
     return render_template('about.html')
 
+@app.route('/blog_lr')
+def render_blog_lr():
+    return render_template('blog_lr.html')
+
 if __name__ == '__main__':
     app.run(host = '0.0.0.0', port = 80)
