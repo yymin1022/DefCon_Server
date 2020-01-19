@@ -2042,6 +2042,16 @@ ul.icons {
   }
   #cta input, #cta select, #cta textarea {
     color: #ffffff; }
+  #soulrest {
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+  #soulrest-goto {
+    margin-top: 50px;
+  }
+  #soulrest-goto p {
+    font-size: 20px;
+  }
   #cta a {
     color: #ffffff; }
   #cta strong, #cta b {
