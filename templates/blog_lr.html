@@ -33,7 +33,7 @@
 					<li><a href="/about">About DefCon</a></li>
 				</ul>
 			</nav>
-		-->	
+		-->
 		<!-- Heading -->
 			<div id="heading" >
 				<h1>1인개발자 LR의 IT블로그</h1>
@@ -44,20 +44,10 @@
 				<div class="inner">
 					<div class="content">
 						<header>
-							<a id="openpost" href="#">포스팅으로 이동하기</a>
+							<a id="openpost" href="#" class="button primary fit">포스팅으로 이동하기</a>
+							<h1>  </h1>
+							<div id='caulyDisplay'></div>
 						</header>
-						<div id='caulyDisplay'>
-							<script src='//image.cauly.co.kr/websdk/common/lasted/ads.min.js'></script>
-							<script>
-								new CaulyAds({
-									app_code:xSsdj4K8,
-									placement:1,
-									displayid:'caulyDisplay',
-									passback:function(){},
-									success:function(){}
-								});
-							</script>
-						</div>
 					</div>
 				</div>
 			</section>
@@ -103,26 +93,34 @@
 		<script src="{{ url_for('static', filename="assets/js/breakpoints.min.js") }}"></script>
 		<script src="{{ url_for('static', filename="assets/js/util.js") }}"></script>
 		<script src="{{ url_for('static', filename="assets/js/main.js") }}"></script>
-		<script type="text/javascript">  
-			var Request = function() {  
-        			this.getParameter = function(name) {  
-            				var rtnval = '';  
-            				var nowAddress = unescape(location.href);  
-            				var parameters = (nowAddress.slice(nowAddress.indexOf('?') + 1, nowAddress.length)).split('&');  
-            				for (var i = 0; i < parameters.length; i++) {  
-                				var varName = parameters[i].split('=')[0];  
-                				if (varName.toUpperCase() == name.toUpperCase()) {  
-                    					rtnval = parameters[i].split('=')[1];  
-                    					break;  
-                				}  
+		<script src='//image.cauly.co.kr/websdk/common/lasted/ads.min.js'></script>
+		<script type="text/javascript">
+			new CaulyAds({
+				app_code:'xSsdj4K8',
+				placement:1,
+				displayid:'caulyDisplay',
+			});
+		</script>
+		<script type="text/javascript">
+			var Request = function() {
+        			this.getParameter = function(name) {
+            				var rtnval = '';
+            				var nowAddress = unescape(location.href);
+            				var parameters = (nowAddress.slice(nowAddress.indexOf('?') + 1, nowAddress.length)).split('&');
+            				for (var i = 0; i < parameters.length; i++) {
+                				var varName = parameters[i].split('=')[0];
+                				if (varName.toUpperCase() == name.toUpperCase()) {
+                    					rtnval = parameters[i].split('=')[1];
+                    					break;
+                				}
             				}
 					return rtnval;
-				}  
-    			}  
-    			var request = new Request();  
-		</script>  
-  
-		<script type="text/javascript"> 
+				}
+    			}
+    			var request = new Request();
+		</script>
+
+		<script type="text/javascript">
 			document.addEventListener("DOMContentLoaded", function(){
 				var url_param = "https://blog.naver.com/yymin1022/" + request.getParameter('post');
 				document.getElementById('openpost').setAttribute("href", url_param);
