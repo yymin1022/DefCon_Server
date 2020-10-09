@@ -12,7 +12,7 @@ def render_main():
 def render_elements():
     return render_template('activity.html')
 
-@app.route('/about')
+@app.route('/privacy')
 def render_generic():
     return render_template('about.html')
 
