@@ -8,9 +8,9 @@ app = Flask(__name__)
 def render_main():
     return render_template('index.html')
 
-@app.route('/activity')
+@app.route('/member')
 def render_elements():
-    return render_template('activity.html')
+    return render_template('member.html')
 
 @app.route('/privacy')
 def render_generic():
