@@ -14,7 +14,7 @@ def render_elements():
 
 @app.route('/privacy')
 def render_generic():
-    return render_template('about.html')
+    return render_template('privacy.html')
 
 @app.route('/blog_lr')
 def render_blog_lr():
