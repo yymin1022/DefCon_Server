@@ -36,7 +36,7 @@
 
 		<!-- Heading -->
 			<div id="heading" >
-				<h1>Members</h1>
+				<h1>Elements</h1>
 			</div>
 
 		<!-- Main -->
@@ -301,6 +301,171 @@
 											</tfoot>
 										</table>
 									</div>
+
+							</div>
+							<div class="col-6 col-12-medium">
+
+								<!-- Buttons -->
+									<h3>Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary large">Large</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button small">Small</a></li>
+										<li><a href="#" class="button wide">Wide</a></li>
+									</ul>
+									<ul class="actions fit">
+										<li><a href="#" class="button primary fit">Fit</a></li>
+										<li><a href="#" class="button fit">Fit</a></li>
+									</ul>
+									<ul class="actions fit">
+										<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+										<li><a href="#" class="button fit small">Fit + Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon fa-search">Icon</a></li>
+										<li><a href="#" class="button icon fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Primary</span></li>
+										<li><span class="button disabled">Default</span></li>
+									</ul>
+
+								<!-- Form -->
+									<h3>Form</h3>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall">
+												<input type="text" name="name" id="name" value="" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<input type="email" name="email" id="email" value="" placeholder="Email" />
+											</div>
+											<!-- Break -->
+											<div class="col-12">
+												<select name="category" id="category">
+													<option value="">- Select -</option>
+													<option value="alpha">Option alpha</option>
+													<option value="beta">Option beta</option>
+													<option value="gamma">Option gamma</option>
+													<option value="delta">Option delta</option>
+													<option value="epsilon">Option epsilon</option>
+													<option value="zeta">Option zeta</option>
+													<option value="eta">Option eta</option>
+													<option value="theta">Option theta</option>
+												</select>
+											</div>
+											<!-- Break -->
+											<div class="col-4 col-12-small">
+												<input type="radio" id="radio-alpha" name="radio" checked>
+												<label for="radio-alpha">Radio alpha</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="radio-beta" name="radio">
+												<label for="radio-beta">Radio beta</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="radio-gamma" name="radio">
+												<label for="radio-gamma">Radio gamma</label>
+											</div>
+											<!-- Break -->
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="checkbox-alpha" name="checkbox">
+												<label for="checkbox-alpha">Checkbox alpha</label>
+											</div>
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="checkbox-beta" name="checkbox" checked>
+												<label for="checkbox-beta">Checkbox beta</label>
+											</div>
+											<!-- Break -->
+											<div class="col-12">
+												<textarea name="textarea" id="textarea" placeholder="Alpha beta gamma delta" rows="6"></textarea>
+											</div>
+											<!-- Break -->
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="Submit Form" class="primary" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+
+								<!-- Image -->
+									<h3>Image</h3>
+									<h4>Fit</h4>
+									<span class="image fit"><img src="images/pic01.png" alt="" /></span>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src= "{{ url_for('static', filename="images/pic01.jpg") }}" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src= "{{ url_for('static', filename="images/pic01.jpg") }}" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src= "{{ url_for('static', filename="images/pic01.jpg") }}" alt="" /></span></div>
+											<!-- Break -->
+											<div class="col-4"><span class="image fit"><img src= "{{ url_for('static', filename="images/pic01.jpg") }}" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src= "{{ url_for('static', filename="images/pic01.jpg") }}" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src= "{{ url_for('static', filename="images/pic01.jpg") }}" alt="" /></span></div>
+											<!-- Break -->
+											<div class="col-4"><span class="image fit"><img src= "{{ url_for('static', filename="images/pic01.jpg") }}" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src= "{{ url_for('static', filename="images/pic01.jpg") }}" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src= "{{ url_for('static', filename="images/pic01.jpg") }}" alt="" /></span></div>
+										</div>
+									</div>
+									<h4>Left &amp; Right</h4>
+									<p>
+										<span class="image left"><img src= "{{ url_for('static', filename="images/pic02.jpg") }}" alt="" /></span>
+										Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget.
+										tempus euismod. Magna et cursus lorem faucibus vestibulum. Blandit adipiscing eu
+										felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
+										praesent tincidunt felis sagittis eget. tempus euismod tempus. Vestibulum ante ipsum
+										primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+										adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis
+										sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
+										Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+										Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida lorem ipsum dolor
+										sit amet dolor feugiat consequat.
+									</p>
+									<p>
+										<span class="image right"><img src= "{{ url_for('static', filename="images/pic02.jpg") }}" alt="" /></span>
+										Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget.
+										tempus euismod. Magna et cursus lorem faucibus vestibulum. Blandit adipiscing eu
+										felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
+										praesent tincidunt felis sagittis eget. tempus euismod tempus. Vestibulum ante ipsum
+										primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+										adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis
+										sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
+										Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+										Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida lorem ipsum dolor
+										sit amet dolor feugiat consequat.
+									</p>
+
+								<!-- Box -->
+									<h3>Box</h3>
+									<div class="box">
+										<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu
+										felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
+										praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum
+										primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus
+										vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+										faucibus lorem ipsum dolor sit amet nullam.</p>
+									</div>
+
+								<!-- Preformatted Code -->
+									<h3>Preformatted</h3>
+									<pre><code>i = 0;
+
+	while (!deck.isInOrder()) {
+	    print 'Iteration ' + i;
+	    deck.shuffle();
+	    i++;
+	}
+
+	print 'It took ' + i + ' iterations to sort the deck.';
+	</code></pre>
 
 							</div>
 						</div>
