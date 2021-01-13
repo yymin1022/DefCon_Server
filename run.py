@@ -33,10 +33,11 @@ def render_corona():
     div_table = soup.find("div", class_="liveboard_layout")
     div_live = div_table.find("div", class_="liveNumOuter")
     div_data = div_live.find("div", class_="liveNum")
+    str_date = div_live.find("span", class_="livedate").text
     str_total = div_data.find_all("span", class_="num")[0].text.split(")")[1]
-    str_today = div_data.find_all("span", class_="before")[0].text[5:]
+    str_today = div_data.find_all("span", class_="before")[0].text.split(" ")[2][:-1]
 
-    strResult = str_total + "\n" + str_today
+    strResult = "어제 " + str_today + "<br/>누적 " + str_total + "<br/>" + str_date
 
     return strResult
 
