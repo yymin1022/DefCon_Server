@@ -1,8 +1,8 @@
 #! /usr/bin/python3
 
 from flask import Flask, render_template
-from urllib.request import urlopen
 from bs4 import BeautifulSoup
+import requests
 import socket
 app = Flask(__name__)
 
@@ -24,14 +24,15 @@ def render_blog_lr():
 
 @app.route('/corona')
 def render_corona():
-    url303 = "https://coronaboard.kr/"
+    headers = {'User-Agent': 'Chrome/66.0.3359.181'}
+    url = "https://coronaboard.kr/"
 
-    html = urlopen(url303).read()
-    soup = BeautifulSoup(html, "html.parser")
+    res = requests.get(url, headers=headers)
+    soup = BeautifulSoup(res.text)
 
     div_corona = soup.find("div", class_="col-3 col-sm-3 col-md-2 text-center")
-    p_total = div_corona.find_all("p")[0]
-    p_today = div_corona.find_all("p")[1]
+    p_total = div_corona.find_all("p")[0].text
+    p_today = div_corona.find_all("p")[1].text
 
     strResult = p_total + " / " + p_today
 
