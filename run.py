@@ -34,7 +34,7 @@ def render_corona():
     div_live = div_table.find("div", class_="liveNumOuter")
     div_data = div_live.find("div", class_="liveNum")
     str_total = div_data.find_all("span", class_="num")[0].text.split(")")[1]
-    str_today = div_data.find_all("span", class_="before")[0].text
+    str_today = div_data.find_all("span", class_="before")[0].text[5:]
 
     strResult = str_total + "\n" + str_today
 
