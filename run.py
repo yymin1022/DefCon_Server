@@ -24,17 +24,19 @@ def render_blog_lr():
 
 @app.route('/corona')
 def render_corona():
-    headers = {'User-Agent': 'Chrome/66.0.3359.181'}
-    url = "https://coronaboard.kr/"
+    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36'}
+    url = "http://ncov.mohw.go.kr/"
 
     res = requests.get(url, headers=headers)
-    soup = BeautifulSoup(res.text)
+    soup = BeautifulSoup(res.text, features="html.parser")
 
-    div_corona = soup.find("div", class_="col-3 col-sm-3 col-md-2 text-center")
-    p_total = div_corona.find_all("p")[0].text
-    p_today = div_corona.find_all("p")[1].text
+    div_table = soup.find("div", class_="liveboard_layout")
+    div_live = div_table.find("div", class_="liveNumOuter")
+    div_data = div_live.find("div", class_="liveNum")
+    str_total = div_live.find_all("span", class_="num")[0].text.split(")")[1]
+    str_today = div_live.find_all("span", class_="before")[0].text
 
-    strResult = p_total + " / " + p_today
+    strResult = str_total + "\n" + str_today
 
     return strResult
 
