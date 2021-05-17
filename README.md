@@ -1,3 +1,3 @@
-# DefCon_Server
+# Def:Con Official Web Site
 
-www.defcon.or.kr
+<a href="https://defcon.or.kr" target="_sub">Visit Now</a>
