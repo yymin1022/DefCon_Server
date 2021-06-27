@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+﻿#! /usr/bin/python3
 
 from flask import Flask, render_template
 from bs4 import BeautifulSoup
@@ -39,6 +39,12 @@ def render_corona():
 
     strResult = " 어제 " + str_today + "명<br/>누적 " + str_total + "명<br/>" + str_date
 
+    return strResult
+
+@app.route('/work')
+def render_work():
+    strResult = "WORK_PAGE"
+    
     return strResult
 
 if __name__ == '__main__':
