@@ -46,7 +46,12 @@ def render_corona():
 
 @app.route('/work')
 def render_work():
-    strResult = "WORK_PAGE"
+    dateStart = datetime.date(2021,3,1)
+    dateToday = datetime.date.today()
+    
+    countDays = (dateToday - dateStart).days
+
+    strResult = countDays
     
     return strResult
 
