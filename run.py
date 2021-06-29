@@ -51,7 +51,7 @@ def render_work():
     
     countDays = (dateToday - dateStart).days
 
-    strResult = countDays
+    strResult = str(countDays)
     
     return strResult
 
