@@ -55,5 +55,11 @@ def render_work():
     
     return strResult
 
+def calcByeongsa(days):
+    return days
+
+def calcGanbu(days):
+    return days
+
 if __name__ == '__main__':
     app.run(host = '0.0.0.0', port = 80)
