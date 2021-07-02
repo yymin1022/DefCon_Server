@@ -56,6 +56,19 @@ def render_work():
     return strResult
 
 def calcByeongsa(days):
+    value = days % 5
+    
+    if value == 0:
+        pass
+    elif value == 1:
+        pass
+    elif value == 2:
+        pass
+    elif value == 3:
+        pass
+    elif value == 4:
+        pass
+    
     return days
 
 def calcGanbu(days):
