@@ -72,6 +72,25 @@ def calcByeongsa(days):
     return days
 
 def calcGanbu(days):
+    value = days % 8
+    
+    if value == 0:
+        pass
+    elif value == 1:
+        pass
+    elif value == 2:
+        pass
+    elif value == 3:
+        pass
+    elif value == 4:
+        pass
+    elif value == 5:
+        pass
+    elif value == 6:
+        pass
+    elif value == 7:
+        pass
+    
     return days
 
 if __name__ == '__main__':
