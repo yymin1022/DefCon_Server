@@ -51,7 +51,7 @@ def render_work():
     
     countDays = (dateToday - dateStart).days
 
-    strResult = str(countDays)
+    strResult = calcByeongsa(countDays)
     
     return strResult
 
