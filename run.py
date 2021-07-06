@@ -60,15 +60,15 @@ def calcByeongsa(days):
     returnValue = ""
     
     if calcValue == 0:
-        pass
+        returnValue = "1조 2BRK\n2조 MID/SWI\n3조 1BRK\n4조 MOR\n5조 AFT"
     elif calcValue == 1:
-        pass
+        returnValue = "1조 MOR\n2조 AFT\n3조 2BRK\n4조 MID/SWI\n5조 1BRK"
     elif calcValue == 2:
-        pass
+        returnValue = "1조 MID/SWI\n2조 1BRK\n3조 MOR\n4조 AFT\n5조 2BRK"
     elif calcValue == 3:
-        pass
+        returnValue = "1조 AFT\n2조 2BRK\n3조 MID/SWI\n4조 1BRK\n5조 MOR"
     elif calcValue == 4:
-        pass
+        returnValue = "1조 1BRK\n2조 MOR\n3조 AFT\n4조 2BRK\n5조 MID/SWI"
     
     return days
 
