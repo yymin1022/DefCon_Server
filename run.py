@@ -70,7 +70,7 @@ def calcByeongsa(days):
     elif calcValue == 4:
         returnValue = "1조 1BRK\n2조 MOR\n3조 AFT\n4조 2BRK\n5조 MID/SWI"
     
-    return days
+    return returnValue
 
 def calcGanbu(days):
     calcValue = days % 5
