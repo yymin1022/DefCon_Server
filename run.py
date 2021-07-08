@@ -77,23 +77,23 @@ def calcGanbu(days):
     returnValue = ""
     
     if calcValue == 0:
-        pass
+        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
     elif calcValue == 1:
-        pass
+        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
     elif calcValue == 2:
-        pass
+        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
     elif calcValue == 3:
-        pass
+        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
     elif calcValue == 4:
-        pass
+        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
     elif calcValue == 5:
-        pass
+        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
     elif calcValue == 6:
-        pass
+        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
     elif calcValue == 7:
-        pass
+        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
     
-    return days
+    return returnValue
 
 if __name__ == '__main__':
     app.run(host = '0.0.0.0', port = 80)
