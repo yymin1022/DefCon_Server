@@ -77,21 +77,21 @@ def calcGanbu(days):
     returnValue = ""
     
     if calcValue == 0:
-        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
+        returnValue = "A조 2DAY<br/>B조 1MID<br/>C조 2SWI<br/>D조 2BRK"
     elif calcValue == 1:
-        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
+        returnValue = "A조 S/B<br/>B조 2MID/1SWI<br/>C조 1BRK<br/>D조 1DAY"
     elif calcValue == 2:
-        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
+        returnValue = "A조 1MID<br/>B조 2SWI<br/>C조 2BRK<br/>D조 2DAY"
     elif calcValue == 3:
-        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
+        returnValue = "A조 2MID/1SWI<br/>B조 1BRK<br/>C조 1DAY<br/>D조 S/B"
     elif calcValue == 4:
-        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
+        returnValue = "A조 2SWI<br/>B조 2BRK<br/>C조 2DAY<br/>D조 1MID"
     elif calcValue == 5:
-        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
+        returnValue = "A조 1BRK<br/>B조 1DAY<br/>C조 S/B<br/>D조 2MID/1SWI"
     elif calcValue == 6:
-        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
+        returnValue = "A조 2BRK<br/>B조 2DAY<br/>C조 1MID<br/>D조 2SWI"
     elif calcValue == 7:
-        returnValue = "A조 2BRK<br/>B조 MID/SWI<br/>C조 1BRK<br/>D조 MOR"
+        returnValue = "A조 1DAY<br/>B조 S/B<br/>C조 2MID/1SWI<br/>D조 1BRK"
     
     return returnValue
 
