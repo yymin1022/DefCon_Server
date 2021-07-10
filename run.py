@@ -51,7 +51,7 @@ def render_work():
     
     countDays = (dateToday - dateStart).days
 
-    strResult = calcByeongsa(countDays)
+    strResult = "병사<br/>%s<br/><br/>간부<br/>%s"%(calcByeongsa(countDays), calcGanbu(coundDays))
     
     return strResult
 
