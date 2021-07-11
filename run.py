@@ -33,14 +33,14 @@ def render_corona():
     res = requests.get(url, headers=headers)
     soup = BeautifulSoup(res.text, features="html.parser")
 
-    div_table = soup.find("div", class_="liveboard_layout")
-    div_live = div_table.find("div", class_="liveNumOuter")
-    div_data = div_live.find("div", class_="liveNum")
-    str_date = div_live.find("span", class_="livedate").text
-    str_total = div_data.find_all("span", class_="num")[0].text.split(")")[1]
-    str_today = div_data.find_all("span", class_="before")[0].text.split(" ")[2][:-1]
+    divTable = soup.find("div", class_="liveboard_layout")
+    divLive = divTable.find("div", class_="liveNumOuter")
+    divData = divLive.find("div", class_="liveNum")
+    strDate = divLive.find("span", class_="livedate").text
+    strTotal = divData.find_all("span", class_="num")[0].text.split(")")[1]
+    strToday = divData.find_all("span", class_="before")[0].text.split(" ")[2][:-1]
 
-    strResult = " 어제 %s명<br/>누적 %s명<br/>%s"%(str_today, str_total, str_date)
+    strResult = " 어제 %s명<br/>누적 %s명<br/>%s"%(strToday, strTotal, strDate)
 
     return strResult
 
