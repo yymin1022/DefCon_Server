@@ -1969,7 +1969,7 @@ ul.icons {
     #banner > .inner > :last-child {
       margin-bottom: 0; }
   #banner h1 img {
-    width:500px;
+    width: 100%;
     height:400px;
   }
   #banner p {
