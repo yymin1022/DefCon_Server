@@ -1968,10 +1968,19 @@ ul.icons {
     z-index: 3; }
     #banner > .inner > :last-child {
       margin-bottom: 0; }
+  
   #banner h1 img {
-    width: 100%;
+    width: 500px;
     height:400px;
   }
+
+  @media screen and (max-width: 1280px) {
+    #banner h1 img {
+      width: 100%;
+      height:400px;
+    }
+  }
+
   #banner p {
     font-size: 1.5rem; }
   #banner a {
