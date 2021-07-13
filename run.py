@@ -40,7 +40,8 @@ def render_corona():
     strTotal = divData.find_all("span", class_="num")[0].text.split(")")[1]
     strToday = divData.find_all("span", class_="before")[0].text.split(" ")[2][:-1]
 
-    strResult = " 어제 %s명<br/>누적 %s명<br/>%s"%(strToday, strTotal, strDate)
+    strResult = " 어제 %s명<br/>누적 %s명<br/>%s"%(strToday, strTotal, strDㅎ;
+    ate)
 
     return strResult
 
