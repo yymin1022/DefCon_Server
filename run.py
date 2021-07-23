@@ -1,6 +1,6 @@
 ﻿#! /usr/bin/python3
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 from bs4 import BeautifulSoup
 
 import datetime
