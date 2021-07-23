@@ -47,12 +47,7 @@ def render_corona():
 @app.route('/wa-api')
 def render_wa_api():
     strResult = ""
-
-    strMessage = request.args.get("msg")
-    strRoom = request.args.get("room")
-    strSender = request.args.get("sender")
-
-    return strMessage
+    return strResult
 
 @app.route('/work')
 def render_work():
