@@ -60,15 +60,15 @@ def calcByeongsa(days):
     strResult = ""
     
     if calcValue == 0:
-        returnValue = "1조 2BRK<br/>2조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)<br/>3조 1BRK<br/>4조 MOR(07:10 ~ 12:10)<br/>5조 AFT(12:00 ~ 17:50)"
+        strResult = "1조 2BRK<br/>2조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)<br/>3조 1BRK<br/>4조 MOR(07:10 ~ 12:10)<br/>5조 AFT(12:00 ~ 17:50)"
     elif calcValue == 1:
-        returnValue = "1조 MOR(07:10 ~ 12:10)<br/>2조 AFT(12:00 ~ 17:50)<br/>3조 2BRK<br/>4조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)<br/>5조 1BRK"
+        strResult = "1조 MOR(07:10 ~ 12:10)<br/>2조 AFT(12:00 ~ 17:50)<br/>3조 2BRK<br/>4조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)<br/>5조 1BRK"
     elif calcValue == 2:
-        returnValue = "1조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)<br/>2조 1BRK<br/>3조 MOR(07:10 ~ 12:10)<br/>4조 AFT(12:00 ~ 17:50)<br/>5조 2BRK"
+        strResult = "1조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)<br/>2조 1BRK<br/>3조 MOR(07:10 ~ 12:10)<br/>4조 AFT(12:00 ~ 17:50)<br/>5조 2BRK"
     elif calcValue == 3:
-        returnValue = "1조 AFT(12:00 ~ 17:50)<br/>2조 2BRK<br/>3조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)<br/>4조 1BRK<br/>5조 MOR(07:10 ~ 12:10)"
+        strResult = "1조 AFT(12:00 ~ 17:50)<br/>2조 2BRK<br/>3조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)<br/>4조 1BRK<br/>5조 MOR(07:10 ~ 12:10)"
     elif calcValue == 4:
-        returnValue = "1조 1BRK<br/>2조 MOR(07:10 ~ 12:10)<br/>3조 AFT(12:00 ~ 17:50)<br/>4조 2BRK<br/>5조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)"
+        strResult = "1조 1BRK<br/>2조 MOR(07:10 ~ 12:10)<br/>3조 AFT(12:00 ~ 17:50)<br/>4조 2BRK<br/>5조 MID(23:40 ~ 07:20)/SWI(17:40 ~ 23:50)"
     
     return strResult
 
