@@ -44,11 +44,6 @@ def render_corona():
 
     return strResult
 
-@app.route('/wa-api')
-def render_wa_api():
-    strResult = ""
-    return strResult
-
 @app.route('/work')
 def render_work():
     dateStart = datetime.date(2021,3,1)
