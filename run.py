@@ -4,7 +4,6 @@ from flask import Flask, render_template, request
 from bs4 import BeautifulSoup
 
 import datetime
-import json
 import requests
 import socket
 
@@ -52,14 +51,6 @@ def render_wa_api():
     strMessage = request.args.get("msg")
     strRoom = request.args.get("room")
     strSender = request.args.get("sender")
-
-    requestData = dict([("msg", message), ("room", update.effective_chat.id), ("sender", update.effective_chat.id)])
-    resultData = requests.post("https://wa-api.defcon.or.kr/getMessage", json=requestData).json()
-
-    resultMessage = resultData["DATA"]["msg"]
-
-    if(resultData["RESULT"]["RESULT_CODE"] == 0):
-        context.bot.send_message(chat_id=update.effective_chat.id, text=resultMessage)
 
     return strMessage
 
