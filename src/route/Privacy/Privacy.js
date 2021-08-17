@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Privacy.css";
 
-const Project = () => {
+const Privacy = () => {
     return(
         <div>
             <p>Privacy Page</p>
@@ -10,4 +10,4 @@ const Project = () => {
     )
 }
 
-export default Project;
+export default Privacy;

@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Members.css";
 
-const Project = () => {
+const Members = () => {
     return(
         <div>
             <p>Member Page</p>
@@ -10,4 +10,4 @@ const Project = () => {
     )
 }
 
-export default Project;
+export default Members;
