@@ -5,7 +5,9 @@ import "./Home.css";
 const Home = () => {
     return(
         <div>
-            <p>Home</p>
+            <p>Home Page</p>
+            <Link to={"/members"}>Members</Link>
+            <Link to={"/privacy"}>Privacy</Link>
         </div>
     )
 }
