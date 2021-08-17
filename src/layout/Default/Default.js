@@ -14,6 +14,7 @@ const Default = (props) => {
     
     return (
         <div id="Container" className={className}>
+            <Header/>
             <Section>
                 {children}
             </Section>
