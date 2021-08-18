@@ -7,6 +7,14 @@ const Home = () => {
     return(
         <div>
             <p>Home Page</p>
+
+            <Link to={"/members"}>
+                <p>Members</p>
+            </Link>
+            <Link to={"/privacy"}>
+                <p>Privacy</p>
+            </Link>
+
             <div className="divHomeContents" id="divIntroduction">
                 Introduction Zone
             </div>
@@ -22,8 +30,6 @@ const Home = () => {
             <div className="divHomeContents" id="divContact">
                 Contact Us
             </div>
-            <Link to={"/members"}>Members</Link>
-            <Link to={"/privacy"}>Privacy</Link>
         </div>
     )
 }
