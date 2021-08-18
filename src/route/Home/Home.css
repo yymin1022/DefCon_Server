@@ -18,7 +18,7 @@
 }
 
 #divIntroductionImage{
-    width: 200px;
+    width: 400px;
 
     display: flex;
     flex-direction: row;
@@ -44,9 +44,9 @@
 }
 
 #pIntroductionTextContent{
-    font-size: 15px;
+    font-size: 25px;
 }
 
 #pIntroductionTextTitle{
-    font-size: 25px;
+    font-size: 35px;
 }
