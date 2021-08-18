@@ -28,7 +28,7 @@
     width: 200px;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #divProject{
@@ -37,4 +37,12 @@
 
 #divWork{
     height: 200px;
+}
+
+#pIntroductionTextContent{
+    font-size: 15px;
+}
+
+#pIntroductionTextTitle{
+    font-size: 25px;
 }
