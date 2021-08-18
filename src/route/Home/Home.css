@@ -46,9 +46,11 @@
 }
 
 #pIntroductionTextContent{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #pIntroductionTextTitle{
-    font-size: 35px;
+    color: #43C6AC;
+    font-size: 45px;
+    font-weight: 900;
 }
