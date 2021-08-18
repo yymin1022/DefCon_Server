@@ -3,15 +3,15 @@
 }
 
 #divAward{
-    height: 200px;
+    height: 400px;
 }
 
 #divContact{
-    height: 200px;
+    height: 400px;
 }
 
 #divIntroduction{
-    height: 200px;
+    height: 400px;
 
     display: flex;
     flex-direction: row;
@@ -36,11 +36,11 @@
 }
 
 #divProject{
-    height: 200px;
+    height: 400px;
 }
 
 #divWork{
-    height: 200px;
+    height: 400px;
 }
 
 #pIntroductionTextContent{
