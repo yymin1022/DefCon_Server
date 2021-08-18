@@ -7,8 +7,17 @@ const Privacy = () => {
     return(
         <div>
             <p>Privacy Page</p>
-            <Link to={"/"}>Home</Link>
-            <Link to={"/members"}>Members</Link>
+
+            <Link to={"/"}>
+                <p>Home</p>
+            </Link>
+            <Link to={"/members"}>
+                <p>Members</p>
+            </Link>
+
+            <div id="divPrivacy">
+                Privacy Zone
+            </div>
         </div>
     )
 }
