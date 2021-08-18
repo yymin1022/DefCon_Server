@@ -16,7 +16,13 @@ const Home = () => {
             </Link>
 
             <div className="divHomeContents" id="divIntroduction">
-                Introduction Zone
+                <div id="divIntroductionImage">
+                    LOGO
+                </div>
+
+                <div id="divIntroductionText">
+                    Introduction Zone
+                </div>
             </div>
             <div className="divHomeContents" id="divAward">
                 Award Zone

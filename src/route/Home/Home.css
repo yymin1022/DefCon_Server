@@ -1,23 +1,40 @@
-.divAward{
-    height: 200px;
-}
-
-.divContact{
-    height: 200px;
-}
-
-.divIntroduction{
-    height: 200px;
-}
-
-.divProject{
-    height: 200px;
-}
-
-.divWork{
-    height: 200px;
-}
-
-#divHomeContents{
+.divHomeContents{
     width: 100%;
+}
+
+#divAward{
+    height: 200px;
+}
+
+#divContact{
+    height: 200px;
+}
+
+#divIntroduction{
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#divIntroductionImage{
+    width: 200px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#divIntroductionText{
+    width: 200px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#divProject{
+    height: 200px;
+}
+
+#divWork{
+    height: 200px;
 }
