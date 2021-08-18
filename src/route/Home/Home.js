@@ -5,7 +5,7 @@ import "./Home.css";
 
 const Home = () => {
     return(
-        <div>
+        <>
             <p>Home Page</p>
 
             <Link to={"/members"}>
@@ -46,7 +46,7 @@ const Home = () => {
             <div className="divHomeContents" id="divContact">
                 Contact Us
             </div>
-        </div>
+        </>
     )
 }
 
