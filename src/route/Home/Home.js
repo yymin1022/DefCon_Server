@@ -25,6 +25,7 @@ const Home = () => {
                         이거 님이 만드신 거였군요!
                     </p>
                     <p id="pIntroductionTextContent">
+                        <br/>
                         대학생 프로그래밍팀 DEF:CON은 서울 성보고등학교에서<br/>
                         프로그래밍 동아리로 시작되었습니다.<br/>
                         우리는 사용자가 우리가 만든 애플리케이션임을 알았을 때<br/>
