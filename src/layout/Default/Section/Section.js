@@ -11,9 +11,7 @@ const Section = props => {
     
     return (
         <div id="SectionContainer" className={ className }>
-            <div id="WrapperContainer">
-                {children}
-            </div>
+            {children}
         </div>
     );
 }
