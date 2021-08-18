@@ -7,8 +7,17 @@ const Members = () => {
     return(
         <div>
             <p>Member Page</p>
-            <Link to={"/"}>Home</Link>
-            <Link to={"/privacy"}>Privacy</Link>
+
+            <Link to={"/"}>
+                <p>Home</p>
+            </Link>
+            <Link to={"/privacy"}>
+                <p>Privacy</p>
+            </Link>
+
+            <div id="divMember">
+                Member Zone
+            </div>
         </div>
     )
 }
