@@ -5,7 +5,7 @@ import "./Privacy.css";
 
 const Privacy = () => {
     return(
-        <div>
+        <>
             <p>Privacy Page</p>
 
             <Link to={"/"}>
@@ -18,7 +18,7 @@ const Privacy = () => {
             <div id="divPrivacy">
                 Privacy Zone
             </div>
-        </div>
+        </>
     )
 }
 

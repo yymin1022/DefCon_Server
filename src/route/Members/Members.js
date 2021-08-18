@@ -5,7 +5,7 @@ import "./Members.css";
 
 const Members = () => {
     return(
-        <div>
+        <>
             <p>Member Page</p>
 
             <Link to={"/"}>
@@ -18,7 +18,7 @@ const Members = () => {
             <div id="divMember">
                 Member Zone
             </div>
-        </div>
+        </>
     )
 }
 
