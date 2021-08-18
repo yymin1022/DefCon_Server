@@ -31,6 +31,10 @@
     flex-direction: column;
 }
 
+#divIntroductionText p{
+    margin: 10px;
+}
+
 #divProject{
     height: 200px;
 }
