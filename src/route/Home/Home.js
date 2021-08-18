@@ -21,7 +21,7 @@ const Home = () => {
                 </div>
 
                 <div id="divIntroductionText">
-                    Introduction Zone
+                    Introduction Text
                 </div>
             </div>
             <div className="divHomeContents" id="divAward">
