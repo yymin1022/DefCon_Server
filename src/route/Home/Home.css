@@ -20,6 +20,7 @@
 }
 
 #divIntroductionImage{
+    height: 100%;
     width: 550px;
     
     display: flex;
@@ -28,6 +29,7 @@
 }
 
 #divIntroductionText{
+    height: 100%;
     width: 100%;
 
     padding-left: 50px;
