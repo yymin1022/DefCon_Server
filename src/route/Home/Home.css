@@ -28,6 +28,10 @@
     justify-content: center;
 }
 
+#divIntroductionImage img{
+    transform: rotate(10deg);
+}
+
 #divIntroductionText{
     height: 100%;
     width: 100%;
