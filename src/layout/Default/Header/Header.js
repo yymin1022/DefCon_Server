@@ -1,6 +1,6 @@
 import React from "react";
 
-import DefconLogo from "../../images/Defcon_logo_default.svg";
+import DefconLogo from "../../../images/Defcon_logo_default.svg";
 
 import "./Header.css"
 
