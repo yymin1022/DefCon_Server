@@ -10,3 +10,11 @@
 
     background-color: aquamarine;
 }
+
+#headerLogo{
+    height: 100%;
+}
+
+#headerLogo img{
+    height: 100%;
+}
