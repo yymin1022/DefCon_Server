@@ -7,6 +7,7 @@ import DefaultLayout from "./layout/Default";
 import Home from "./route/Home";
 import Members from "./route/Members";
 import Privacy from "./route/Privacy";
+import Projects from "./route/Projects";
 
 const App = () => {
     return (
@@ -22,6 +23,11 @@ const App = () => {
                     path = "/members"
                     layout = {DefaultLayout}
                     component = {withRouter(Members)} />
+                <RouteLayout
+                    exact
+                    path = "/projects"
+                    layout = {DefaultLayout}
+                    component = {withRouter(Projects)} />
                 <RouteLayout
                     exact
                     path = "/privacy"

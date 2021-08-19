@@ -6,13 +6,14 @@ import "./Members.css";
 const Members = () => {
     return(
         <>
-            <p>Member Page</p>
-
             <Link to={"/"}>
                 <p>Home</p>
             </Link>
             <Link to={"/privacy"}>
                 <p>Privacy</p>
+            </Link>
+            <Link to={"/projects"}>
+                <p>Project</p>
             </Link>
 
             <div id="divMember">

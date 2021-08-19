@@ -1,26 +1,26 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-import "./Privacy.css";
+import "./Projects.css";
 
-const Privacy = () => {
+const Projects = () => {
     return(
         <>
             <Link to={"/"}>
                 <p>Home</p>
             </Link>
             <Link to={"/members"}>
-                <p>Members</p>
+                <p>Member</p>
             </Link>
-            <Link to={"/projects"}>
-                <p>Project</p>
+            <Link to={"/privacy"}>
+                <p>Privacy</p>
             </Link>
 
-            <div id="divPrivacy">
-                Privacy Zone
+            <div id="divProject">
+                Project Zone
             </div>
         </>
     )
 }
 
-export default Privacy;
+export default Projects;

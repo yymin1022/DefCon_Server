@@ -6,13 +6,14 @@ import "./Home.css";
 const Home = () => {
     return(
         <>
-            <p>Home Page</p>
-
             <Link to={"/members"}>
                 <p>Members</p>
             </Link>
             <Link to={"/privacy"}>
                 <p>Privacy</p>
+            </Link>
+            <Link to={"/projects"}>
+                <p>Project</p>
             </Link>
 
             <div className="divHomeContents" id="divIntroduction">
