@@ -29,6 +29,8 @@
 #divIntroductionText{
     width: 100%;
 
+    padding-left: 200px;
+
     display: flex;
     flex-direction: column;
 }
