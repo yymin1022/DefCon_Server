@@ -1,8 +1,8 @@
 import React from "react";
 
-import CrabLogo from "../../../images/Defcon_crab.svg";
-import DefconLogoDefault from "../../../images/Defcon_logo_default.svg";
-import DefconLogoSplit from "../../../images/Defcon_logo_split.svg";
+import CrabLogo from "../../images/Defcon_crab.svg";
+import DefconLogoDefault from "../../images/Defcon_logo_default.svg";
+import DefconLogoSplit from "../../images/Defcon_logo_split.svg";
 
 import "./Home.css";
 
