@@ -20,16 +20,17 @@
 }
 
 #divIntroductionImage{
-    width: 400px;
-
+    width: 550px;
+    
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #divIntroductionText{
     width: 100%;
 
-    padding-left: 200px;
+    padding-left: 50px;
 
     display: flex;
     flex-direction: column;
