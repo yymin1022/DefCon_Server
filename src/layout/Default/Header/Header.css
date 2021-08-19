@@ -22,3 +22,9 @@
 #headerLogo img{
     height: 45px;
 }
+
+#headerNav{
+    height: 100%;
+
+    padding: 15px;
+}
