@@ -35,9 +35,6 @@ const Home = () => {
             <div className="divHomeContents" id="divWork">
                 Work Zone
             </div>
-            <div className="divHomeContents" id="divProject">
-                Project Zone
-            </div>
             <div className="divHomeContents" id="divContact">
                 Contact Us
             </div>
