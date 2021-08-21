@@ -37,7 +37,8 @@ const Home = () => {
 
                 <div id="divAwardText">
                     <p id="pAwardTextTitle">
-                        2019 스마트서울 모바일 앱공모전 장려상 수상
+                        2019 스마트서울 모바일 앱공모전<br/>
+                        장려상 수상
                     </p>
                     <p id="pAwardTextContent">
                         <br/>
