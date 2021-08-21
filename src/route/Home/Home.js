@@ -46,7 +46,31 @@ const Home = () => {
                 </div>
             </div>
             <div className="divHomeContents" id="divWork">
-                Work Zone
+                <div className="divWorkWrapper">
+                    <div className="divWorkContent" id="divWorkAndroid">
+                        Android
+                    </div>
+                    <div className="divWorkContent" id="divWorkIos">
+                        iOS
+                    </div>
+                    <div className="divWorkContent" id="divWorkWeb">
+                        Web
+                    </div>
+                    <div className="divWorkContent" id="divWorkRepair">
+                        Self Repair
+                    </div>
+                </div>
+                <div className="divWorkWrapper">
+                    <div className="divWorkContent" id="divWorkSecurity">
+                        CTF / Security
+                    </div><div className="divWorkContent" id="divWorkChatbot">
+                        Chat Bot
+                    </div><div className="divWorkContent" id="divWorkYoutube">
+                        Youtube
+                    </div><div className="divWorkContent" id="divWorkOther">
+                        And Other..!
+                    </div>
+                </div>
             </div>
             <div className="divHomeContents" id="divContact">
                 Contact Us
