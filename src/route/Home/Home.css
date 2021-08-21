@@ -105,6 +105,11 @@
     height: 300px;
     width: 300px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     background-color: lightgray;
     border-radius: 25px;
 }
