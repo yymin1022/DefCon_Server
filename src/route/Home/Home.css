@@ -97,6 +97,13 @@
     justify-content: space-between;
 }
 
+.divWorkContent{
+    height: 350px;
+    width: 350px;
+
+    background-color: lightgray;
+}
+
 #pAwardTextContent{
     padding: 20px;
 
