@@ -32,7 +32,7 @@ const Home = () => {
             </div>
             <div className="divHomeContents" id="divAward">
                 <div id="divAwardImage">
-                    <img src={CrabLogo} />
+                    <img src={SeoulRestLogo} />
                 </div>
 
                 <div id="divAwardText">
