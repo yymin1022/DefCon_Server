@@ -89,10 +89,14 @@
 }
 
 #pAwardTextContent{
+    padding: 20px;
+
     font-size: 27px;
 }
 
 #pAwardTextTitle{
+    padding: 20px;
+
     background-color: #43C6AC;
     color: #FFFFFF;
     font-size: 55px;
