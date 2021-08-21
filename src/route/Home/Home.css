@@ -84,8 +84,17 @@
 #divIntroductionText p{
     margin: 10px;
 }
+
 #divWork{
     height: 600px;
+}
+
+.divWorkWrapper{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #pAwardTextContent{
