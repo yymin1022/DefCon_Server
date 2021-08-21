@@ -106,6 +106,7 @@
     width: 300px;
 
     background-color: lightgray;
+    border-radius: 25px;
 }
 
 #pAwardTextContent{
