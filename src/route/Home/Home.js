@@ -41,9 +41,7 @@ const Home = () => {
                         장려상 수상
                     </p>
                     <p id="pAwardTextContent">
-                        <br/>
                         SOUL REST : Seoul에서 Soul을 힐링하다.
-                        <br/>
                     </p>
                 </div>
             </div>
