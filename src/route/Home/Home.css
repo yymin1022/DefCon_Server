@@ -9,6 +9,37 @@
 
 #divAward{
     height: 600px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#divAwardImage{
+    height: 100%;
+    width: 550px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divAwardImage img{
+    transform: rotate(10deg);
+}
+
+#divAwardText{
+    height: 100%;
+    width: 100%;
+
+    padding-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#divAwardText p{
+    margin: 10px;
 }
 
 #divContact{
@@ -51,6 +82,16 @@
 }
 #divWork{
     height: 600px;
+}
+
+#pAwardTextContent{
+    font-size: 27px;
+}
+
+#pAwardTextTitle{
+    color: #43C6AC;
+    font-size: 55px;
+    font-weight: 900;
 }
 
 #pIntroductionTextContent{

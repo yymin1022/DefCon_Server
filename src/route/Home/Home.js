@@ -3,6 +3,7 @@ import React from "react";
 import CrabLogo from "../../images/Defcon_crab.svg";
 import DefconLogoDefault from "../../images/Defcon_logo_default.svg";
 import DefconLogoSplit from "../../images/Defcon_logo_split.svg";
+import SeoulRestLogo from "../../images/SeoulRest_Icon.png";
 
 import "./Home.css";
 
@@ -30,7 +31,20 @@ const Home = () => {
                 </div>
             </div>
             <div className="divHomeContents" id="divAward">
-                Award Zone
+                <div id="divAwardImage">
+                    <img src={CrabLogo} />
+                </div>
+
+                <div id="divAwardText">
+                    <p id="pAwardTextTitle">
+                        2019 스마트서울 모바일 앱공모전 장려상 수상
+                    </p>
+                    <p id="pAwardTextContent">
+                        <br/>
+                        SOUL REST : Seoul에서 Soul을 힐링하다.
+                        <br/>
+                    </p>
+                </div>
             </div>
             <div className="divHomeContents" id="divWork">
                 Work Zone
