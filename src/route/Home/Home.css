@@ -93,7 +93,7 @@
     width: 100%;
 }
 
-.divWorkContent{
+#divWorkContent{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
