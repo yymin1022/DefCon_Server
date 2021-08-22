@@ -93,6 +93,10 @@
     justify-content: space-around;
 }
 
+#divworkTitle{
+    width: 100%;
+}
+
 .divWorkWrapper{
     width: 100%;
 
@@ -137,4 +141,12 @@
     color: #43C6AC;
     font-size: 55px;
     font-weight: 900;
+}
+
+#pWorkTitle{
+    padding: 10px;
+
+    background-color: #43C6AC;
+    color: #FFFFFF;
+    font-size: 35px;
 }
