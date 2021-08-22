@@ -2,7 +2,7 @@ import React from "react";
 import "./Members.css";
 import CrabLogo from "../../images/Defcon_crab.svg";
 
-function profile(name, school,intro) {
+function profile() {
     return (
       <div>
           <div id="divIntroductionImage">
@@ -21,7 +21,7 @@ const Members = () => {
     return(
         <>
             <div id="divMember">
-                { profile('yymin1022', '중앙대학교', '황제')}
+                { profile('yymin1022')}
             </div>
         </>
     )
