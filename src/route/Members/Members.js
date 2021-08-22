@@ -4,7 +4,7 @@ import CrabLogo from "../../images/Defcon_crab.svg";
 
 function Profile(props) {
     return (
-      <div>
+      <div id="divIntro">
           <div id="divIntroductionImage">
               <img src={CrabLogo} />
           </div>
