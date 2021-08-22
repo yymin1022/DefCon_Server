@@ -135,9 +135,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="divHomeContents" id="divInfo">
-                Info / Contact Us
-            </div>
         </>
     )
 }
