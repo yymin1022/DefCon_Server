@@ -1,0 +1,40 @@
+.Footer{
+    height: 75px;
+    width: 100%;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #FFFFFF;
+}
+
+#footerLogo{
+    height: 100%;
+
+    padding: 15px;
+}
+
+#footerLogo img{
+    height: 45px;
+}
+
+#footerNav{
+    height: 100%;
+
+    padding: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#footerNav a{
+    margin: 5px;
+}
