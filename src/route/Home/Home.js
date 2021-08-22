@@ -46,6 +46,11 @@ const Home = () => {
                 </div>
             </div>
             <div className="divHomeContents" id="divWork">
+                <div id="divWorkTitle">
+                    <p id="pWorkTitle">
+                        Def:Con's Works
+                    </p>
+                </div>
                 <div className="divWorkWrapper">
                     <div className="divWorkContent" id="divWorkAndroid">
                         Android
