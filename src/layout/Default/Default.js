@@ -19,6 +19,8 @@ const Default = (props) => {
             <Section>
                 {children}
             </Section>
+            <div class="divSpacer">
+            </div>
             <Footer/>
         </div>
     );
