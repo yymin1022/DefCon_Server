@@ -12,21 +12,6 @@ const Footer = () => {
             <div id="footerLogo">
                 <img src={DefconLogo} />
             </div>
-
-            <div id="footerNav">
-                <Link to={"/"}>
-                    <p>Home</p>
-                </Link>
-                <Link to={"/members"}>
-                    <p>Members</p>
-                </Link>
-                <Link to={"/privacy"}>
-                    <p>Privacy</p>
-                </Link>
-                <Link to={"/projects"}>
-                    <p>Project</p>
-                </Link>
-            </div>
         </div>
     );
 }
