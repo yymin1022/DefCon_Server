@@ -58,7 +58,9 @@ const Home = () => {
                                 <img src={SeoulRestLogo} />
                             </div>
                             <div className="divWorkItemText">
-                                Android
+                                <p id="pWorkItemText">
+                                    Android
+                                </p>
                             </div>
                         </div>
                         <div className="divWorkItem" id="divWorkIos">
@@ -66,7 +68,9 @@ const Home = () => {
                                 <img src={SeoulRestLogo} />
                             </div>
                             <div className="divWorkItemText">
-                                iOS
+                                <p id="pWorkItemText">
+                                    iOS
+                                </p>
                             </div>
                         </div>
                         <div className="divWorkItem" id="divWorkWeb">
@@ -74,7 +78,9 @@ const Home = () => {
                                 <img src={SeoulRestLogo} />
                             </div>
                             <div className="divWorkItemText">
-                                Web
+                                <p id="pWorkItemText">
+                                    Web
+                                </p>
                             </div>
                         </div>
                         <div className="divWorkItem" id="divWorkRepair">
@@ -82,7 +88,9 @@ const Home = () => {
                                 <img src={SeoulRestLogo} />
                             </div>
                             <div className="divWorkItemText">
-                                Self Repair
+                                <p id="pWorkItemText">
+                                    Self Repair
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -92,28 +100,36 @@ const Home = () => {
                                 <img src={SeoulRestLogo} />
                             </div>
                             <div className="divWorkItemText">
-                                CTF / Security
+                                <p id="pWorkItemText">
+                                    CTF / Security
+                                </p>
                             </div>
                         </div><div className="divWorkItem" id="divWorkChatbot">
                             <div className="divWorkItemImage">
                                 <img src={SeoulRestLogo} />
                             </div>
                             <div className="divWorkItemText">
-                                Chat Bot
+                                <p id="pWorkItemText">
+                                    Chat Bot
+                                </p>
                             </div>
                         </div><div className="divWorkItem" id="divWorkYoutube">
                             <div className="divWorkItemImage">
                                 <img src={SeoulRestLogo} />
                             </div>
                             <div className="divWorkItemText">
-                                Youtube
+                                <p id="pWorkItemText">
+                                    Youtube
+                                </p>
                             </div>
                         </div><div className="divWorkItem" id="divWorkOther">
                             <div className="divWorkItemImage">
                                 <img src={SeoulRestLogo} />
                             </div>
                             <div className="divWorkItemText">
-                                And Other..!
+                                <p id="pWorkItemText">
+                                    And Other..!
+                                </p>
                             </div>
                         </div>
                     </div>
