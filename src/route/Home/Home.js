@@ -54,27 +54,67 @@ const Home = () => {
                 <div id="divWorkContent">
                     <div className="divWorkWrapper">
                         <div className="divWorkItem" id="divWorkAndroid">
-                            Android
+                            <div className="divWorkItemImage">
+                                <img src={SeoulRestLogo} />
+                            </div>
+                            <div className="divWorkItemText">
+                                Android
+                            </div>
                         </div>
                         <div className="divWorkItem" id="divWorkIos">
-                            iOS
+                            <div className="divWorkItemImage">
+                                <img src={SeoulRestLogo} />
+                            </div>
+                            <div className="divWorkItemText">
+                                iOS
+                            </div>
                         </div>
                         <div className="divWorkItem" id="divWorkWeb">
-                            Web
+                            <div className="divWorkItemImage">
+                                <img src={SeoulRestLogo} />
+                            </div>
+                            <div className="divWorkItemText">
+                                Web
+                            </div>
                         </div>
                         <div className="divWorkItem" id="divWorkRepair">
-                            Self Repair
+                            <div className="divWorkItemImage">
+                                <img src={SeoulRestLogo} />
+                            </div>
+                            <div className="divWorkItemText">
+                                Self Repair
+                            </div>
                         </div>
                     </div>
                     <div className="divWorkWrapper">
                         <div className="divWorkItem" id="divWorkSecurity">
-                            CTF / Security
+                            <div className="divWorkItemImage">
+                                <img src={SeoulRestLogo} />
+                            </div>
+                            <div className="divWorkItemText">
+                                CTF / Security
+                            </div>
                         </div><div className="divWorkItem" id="divWorkChatbot">
-                            Chat Bot
+                            <div className="divWorkItemImage">
+                                <img src={SeoulRestLogo} />
+                            </div>
+                            <div className="divWorkItemText">
+                                Chat Bot
+                            </div>
                         </div><div className="divWorkItem" id="divWorkYoutube">
-                            Youtube
+                            <div className="divWorkItemImage">
+                                <img src={SeoulRestLogo} />
+                            </div>
+                            <div className="divWorkItemText">
+                                Youtube
+                            </div>
                         </div><div className="divWorkItem" id="divWorkOther">
-                            And Other..!
+                            <div className="divWorkItemImage">
+                                <img src={SeoulRestLogo} />
+                            </div>
+                            <div className="divWorkItemText">
+                                And Other..!
+                            </div>
                         </div>
                     </div>
                 </div>
