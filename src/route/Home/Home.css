@@ -124,8 +124,7 @@
 }
 
 .divWorkItemImage img{
-    height: 200px;
-    width: 200px;
+    height: 100%;
 }
 
 .divWorkWrapper{
