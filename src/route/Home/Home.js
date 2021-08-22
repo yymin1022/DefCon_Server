@@ -51,29 +51,31 @@ const Home = () => {
                         Def:Con's Works
                     </p>
                 </div>
-                <div className="divWorkWrapper">
-                    <div className="divWorkContent" id="divWorkAndroid">
-                        Android
+                <div id="divWorkContent">
+                    <div className="divWorkWrapper">
+                        <div className="divWorkItem" id="divWorkAndroid">
+                            Android
+                        </div>
+                        <div className="divWorkItem" id="divWorkIos">
+                            iOS
+                        </div>
+                        <div className="divWorkItem" id="divWorkWeb">
+                            Web
+                        </div>
+                        <div className="divWorkItem" id="divWorkRepair">
+                            Self Repair
+                        </div>
                     </div>
-                    <div className="divWorkContent" id="divWorkIos">
-                        iOS
-                    </div>
-                    <div className="divWorkContent" id="divWorkWeb">
-                        Web
-                    </div>
-                    <div className="divWorkContent" id="divWorkRepair">
-                        Self Repair
-                    </div>
-                </div>
-                <div className="divWorkWrapper">
-                    <div className="divWorkContent" id="divWorkSecurity">
-                        CTF / Security
-                    </div><div className="divWorkContent" id="divWorkChatbot">
-                        Chat Bot
-                    </div><div className="divWorkContent" id="divWorkYoutube">
-                        Youtube
-                    </div><div className="divWorkContent" id="divWorkOther">
-                        And Other..!
+                    <div className="divWorkWrapper">
+                        <div className="divWorkItem" id="divWorkSecurity">
+                            CTF / Security
+                        </div><div className="divWorkItem" id="divWorkChatbot">
+                            Chat Bot
+                        </div><div className="divWorkItem" id="divWorkYoutube">
+                            Youtube
+                        </div><div className="divWorkItem" id="divWorkOther">
+                            And Other..!
+                        </div>
                     </div>
                 </div>
             </div>
