@@ -3,15 +3,20 @@
     width: 100%;
 }
 
-#divIntroductionImage{
-    height: 100%;
-    width: 100px;
-    
+#divMemberImage{
+    margin-right: 30px;
+    margin-bottom: 80px;
+    float: left;
+    clear: both;
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
-    clear: both;
+}
+
+#divMemberImage img{
+    height:100px;
+    width: 100px;
+    transform: rotate(10deg);
 }
 
 #spanMembersBar{
@@ -19,7 +24,6 @@
     background-color: #43C6AC;
     font-size: 20pt;
     font-weight: bold;
-
 }
 
 #divIntro{
@@ -28,5 +32,6 @@
 }
 
 #divMemberIntroduction{
-
+    content: ' ';
+    float: left;
 }
