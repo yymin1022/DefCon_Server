@@ -19,14 +19,15 @@ function Profile(props) {
   }
 const Members = () => {
     return(
-        <>
+        <div id="divMemberIntroduction">
+            <p><span id="spanMembersBar">Members</span></p>
             <div id="divMember">
                 <Profile name = {"LR"} school = {"중앙대학교"} intro = {"누구보다 보라매를 사랑하는 남자"}/>
                 <Profile name = {"HarenKei"} school = {"대림대학교"} intro = {"땅개"}/>
                 <Profile name = {"Caret"} school = {"안양대학교"} intro = {"킹익"}/>
                 <Profile name = {"V4BEL"} school = {"NULL"} intro = {"확대범"}/>
             </div>
-        </>
+        </div>
     )
 }
 
