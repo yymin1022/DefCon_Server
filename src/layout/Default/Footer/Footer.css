@@ -16,10 +16,18 @@
     background-color: #43C6AC;
 }
 
-#footerLogo{
+.footerItem{
     height: 150px;
 
     padding: 15px;
+}
+
+#footerContent{
+    display: flex;
+    flex-direction: column;
+
+    align-items: right;
+    justify-content: space-between;
 }
 
 #footerLogo img{
