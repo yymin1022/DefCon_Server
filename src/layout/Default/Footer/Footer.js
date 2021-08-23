@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-import DefconLogoSplit from "../../images/Defcon_logo_split.svg";
+import DefconLogoSplit from "../../../images/Defcon_logo_split.svg";
 
 import "./Footer.css"
 
