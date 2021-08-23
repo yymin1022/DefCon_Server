@@ -9,17 +9,19 @@
 
     display: flex;
     flex-direction: row;
+
+    align-items: center;
     justify-content: space-between;
 
     background-color: #43C6AC;
 }
 
 #footerLogo{
-    height: 100%;
+    height: 150px;
 
     padding: 15px;
 }
 
 #footerLogo img{
-    height: 45px;
+    height: 100%;
 }
