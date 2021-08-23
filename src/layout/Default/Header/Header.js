@@ -20,9 +20,6 @@ const Header = () => {
                 <Link to={"/members"}>
                     <p>Members</p>
                 </Link>
-                <Link to={"/privacy"}>
-                    <p>Privacy</p>
-                </Link>
                 <Link to={"/projects"}>
                     <p>Project</p>
                 </Link>

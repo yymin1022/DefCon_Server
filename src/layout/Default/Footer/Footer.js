@@ -15,9 +15,9 @@ const Footer = () => {
 
             <div id="footerContent">
                 <div id="footerPrivacy">
-                    <p>
-                        Def:Con 개인정보 처리방침
-                    </p>
+                    <Link to={"/privacy"}>
+                        <p>Def:Con 개인정보 처리방침</p>
+                    </Link>
                 </div>
                 <div id="footerCopyright">
                     <p>
