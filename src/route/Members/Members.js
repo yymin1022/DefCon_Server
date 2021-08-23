@@ -17,7 +17,6 @@ function Profile(props) {
           <p><span>{ props.group }</span></p>
           <p>{ props.intro }</p>
           </div>
-          <br></br>
       </div>
     );
   }
@@ -25,7 +24,11 @@ function Profile(props) {
 const Members = () => {
     return(
         <div id="divMemberIntroduction">
-            <p><span id="spanMembersBar">Members</span></p>
+            <div id="divMemberTitle">
+                    <p id="pMemberTitle">
+                        <span id="spanMemberTitle">Members</span>
+                    </p>
+                </div>
             <div id="divMember">
                 <Profile img = {Lr} nickname = {"LR"} name = {"유용민"} group = {"중앙대학교 19학번 / 대한민국 공군 ROKAF "} intro = {"Android, Web"}/>
                 <Profile img = {Haren} nickname = {"HarenKei"} name = {"정승민"} group = {"대림대학교 19학번 / 대한민국 육군 ROKA "} intro = {"Python Chatbot, Design, Web, iOS"}/>

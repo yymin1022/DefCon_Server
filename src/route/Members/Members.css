@@ -3,8 +3,10 @@
 }
 
 #divMemberImage{
+    margin-left: 5px;
     margin-right: 30px;
     margin-bottom: 80px;
+    margin-top: 20px;
     float: left;
     clear: both;
     display: flex;
@@ -18,17 +20,16 @@
     width: 150px;
 }
 
-#spanMembersBar{
-    color: #ffffff;
-    background-color: #43C6AC;
-    font-size: 20pt;
-    font-weight: bold;
-    block-size: 100%;
-}
-
 #divIntro{
     display: block;
+    width: 700;
+    height: 300;
+    border:#43C6AC 10px;
     margin: 0 -5px;
+}
+
+#divIntro:hover{
+    box-shadow: 0px 5px 5px grey;;
 }
 
 #divMemberIntroduction{
@@ -39,4 +40,11 @@
 #spanName{
     font-size: 12pt;
     color: gray;
+}
+
+#spanMemberTitle{
+    padding: 5px;
+    background-color: #43C6AC;
+    color: #FFFFFF;
+    font-size: 30px;
 }
