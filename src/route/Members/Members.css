@@ -1,5 +1,17 @@
+#divMemberIntroduction{
+   /* display:flex;
+    flex-wrap:wrap;*/ 
+}
+
+#divIntro{
+    display: flex;
+    flex-wrap:wrap;
+}
+
 #divMember{
     width: 100%;
+    display: inline-block;
+    
 }
 
 #divMemberImage{
@@ -7,11 +19,6 @@
     margin-right: 30px;
     margin-bottom: 80px;
     margin-top: 20px;
-    float: left;
-    clear: both;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     box-shadow: 0px 5px 5px grey;;
 }
 
@@ -21,12 +28,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
+    display: inline-block;
 }
 
 .divCrab img{
     width: 300px;
-
     transform: rotate(-10deg);
 }
 
@@ -41,17 +47,13 @@
     width: 700;
     height: 300;
     margin: 0 -5px;
-    float:left;
 }
 
 #divIntro:hover{
     box-shadow: 0px 5px 5px grey;
 }
 
-#divMemberIntroduction{
-    content: ' ';
-    float: left;
-}
+
 
 #spanName{
     font-size: 12pt;
