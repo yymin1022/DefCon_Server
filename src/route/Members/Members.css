@@ -1,11 +1,22 @@
-#divMemberIntroduction{
-   /* display:flex;
-    flex-wrap:wrap;*/ 
+#divIntro{ /*프로필 이미지와 소개글을 묶어주는 div에 flex 속성 적용, #divIntro는 flex-container의 역할을 수행함*/
+    display : flex;
+    flex-flow : nowrap row;
+    justify-content : start;
 }
 
-#divIntro{
-    display: flex;
-    flex-wrap:wrap;
+#divMemberImage{
+    
+}
+
+#divMemberImage img{
+    height :150px;
+    width : 150px;
+    box-shadow : 0px 5px 5px grey;
+}
+
+#divMemberItro{
+    padding-left: 20px;
+
 }
 
 #divMember{
@@ -14,13 +25,7 @@
     
 }
 
-#divMemberImage{
-    margin-left: 5px;
-    margin-right: 30px;
-    margin-bottom: 80px;
-    margin-top: 20px;
-    box-shadow: 0px 5px 5px grey;;
-}
+
 
 .divCrab{
     height: 100%;
@@ -36,12 +41,19 @@
     transform: rotate(-10deg);
 }
 
-#divMemberImage img{
-    height:150px;
-    width: 150px;
+#spanMemberTitle{
+    padding: 5px;
+    background-color: #43C6AC;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+#divIntro:hover{
+    box-shadow: 0px 5px 5px grey;
 }
 
 
+
+/*
 #divIntro{
     display: block;
     width: 700;
@@ -49,9 +61,7 @@
     margin: 0 -5px;
 }
 
-#divIntro:hover{
-    box-shadow: 0px 5px 5px grey;
-}
+
 
 
 
@@ -60,9 +70,5 @@
     color: gray;
 }
 
-#spanMemberTitle{
-    padding: 5px;
-    background-color: #43C6AC;
-    color: #FFFFFF;
-    font-size: 30px;
-}
+
+*/

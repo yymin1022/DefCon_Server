@@ -7,13 +7,14 @@ import V4bel from "../../images/v4bel.jpeg";
 import Gesaegi from "../../images/Defcon_crab.svg";
 
 
-function Profile(props) {
+function Profile(props) { {/*프로필 컴포넌트 함수*/} 
     return (
-      <div id="divIntro">
+      <div id="divIntro"> {/*프로필 이미지와 소개 내용을 묶어주는 div*/}
           <div id="divMemberImage">
               <img src={ props.img }/>
           </div>
-          <div id="divMemberIntro">
+          
+          <div id="divMemberIntro"> {/*멤버 소개글을 묶어주는 div*/}
           <h2>{ props.nickname }  |  <span id="spanName">{ props.name }</span></h2>
           <p><span>{ props.group }</span></p>
           <p>{ props.intro }</p>
