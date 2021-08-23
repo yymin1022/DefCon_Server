@@ -1,3 +1,36 @@
 #divMember{
     width: 100%;
 }
+
+#divMemberImage{
+    margin-right: 30px;
+    margin-bottom: 80px;
+    float: left;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 5px grey;;
+}
+
+#divMemberImage img{
+    height:150px;
+    width: 150px;
+}
+
+#spanMembersBar{
+    color: #ffffff;
+    background-color: #43C6AC;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#divIntro{
+    display: block;
+    margin: 0 -5px;
+}
+
+#divMemberIntroduction{
+    content: ' ';
+    float: left;
+}
