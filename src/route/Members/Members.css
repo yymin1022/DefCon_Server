@@ -15,21 +15,37 @@
     box-shadow: 0px 5px 5px grey;;
 }
 
+.divCrab{
+    height: 100%;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.divCrab img{
+    width: 300px;
+
+    transform: rotate(-10deg);
+}
+
 #divMemberImage img{
     height:150px;
     width: 150px;
 }
 
+
 #divIntro{
     display: block;
     width: 700;
     height: 300;
-    border:#43C6AC 10px;
     margin: 0 -5px;
+    float:left;
 }
 
 #divIntro:hover{
-    box-shadow: 0px 5px 5px grey;;
+    box-shadow: 0px 5px 5px grey;
 }
 
 #divMemberIntroduction{

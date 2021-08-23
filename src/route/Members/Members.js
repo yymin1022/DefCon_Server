@@ -4,6 +4,7 @@ import Lr from "../../images/LR.png";
 import Haren from "../../images/HarenKei.jpeg";
 import Caret from "../../images/caret.png";
 import V4bel from "../../images/v4bel.jpeg";
+import Gesaegi from "../../images/Defcon_crab.svg";
 
 
 function Profile(props) {
@@ -21,6 +22,7 @@ function Profile(props) {
     );
   }
 
+
 const Members = () => {
     return(
         <div id="divMemberIntroduction">
@@ -34,6 +36,10 @@ const Members = () => {
                 <Profile img = {Haren} nickname = {"HarenKei"} name = {"정승민"} group = {"대림대학교 19학번 / 대한민국 육군 ROKA "} intro = {"Python Chatbot, Design, Web, iOS"}/>
                 <Profile img = {Caret} nickname = {"Caret"} name = {"김영현"} group = {"안양대학교 19학번 / 대한민국 사회복무요원 ROK Social Agent "} intro = {"Android, Web"}/>
                 <Profile img = {V4bel} nickname = {"V4BEL"} name = {"김현우"} group = {"Defnit"} intro = {"킹왕짱 해커"}/>
+            </div>
+
+            <div class="divCrab">
+                <img src={ Gesaegi } />
             </div>
         </div>
     )
