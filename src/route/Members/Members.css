@@ -2,6 +2,8 @@
     display : flex;
     flex-flow : nowrap row;
     justify-content : start;
+    flex-basis: 50%;
+    margin-bottom: 70px;
 }
 
 #divMemberImage{
@@ -12,15 +14,13 @@
     height :150px;
     width : 150px;
     box-shadow : 0px 5px 5px grey;
+    margin-right: 30px;
 }
 
 #divMemberItro{
-    padding-left: 20px;
-
 }
 
 #divMember{
-    width: 100%;
     display: inline-block;
     
 }
@@ -28,16 +28,15 @@
 
 
 .divCrab{
-    height: 100%;
-    width: 550px;
+    z-index: -1;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    display: inline-block;
+    flex-basis: 50%;
+    justify-content: end;
 }
 
 .divCrab img{
-    width: 300px;
+    width: 600px;
+    height:100%;
     transform: rotate(-10deg);
 }
 
