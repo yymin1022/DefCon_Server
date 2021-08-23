@@ -8,7 +8,7 @@ import "./Footer.css"
 const Footer = () => {
     
     return (
-        <div className="fixed-bottom Footer">
+        <div className="Footer">
             <div id="footerLogo">
                 <img src={DefconLogo} />
             </div>
