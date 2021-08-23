@@ -9,11 +9,11 @@ const Footer = () => {
     
     return (
         <div className="Footer">
-            <div className="footerItem" id="footerLogo">
+            <div id="footerLogo">
                 <img src={DefconLogoSplit} />
             </div>
 
-            <div className="footerItem" id="footerContent">
+            <div id="footerContent">
                 <div id="footerPrivacy">
                     <p>
                         Def:Con 개인정보 처리방침
