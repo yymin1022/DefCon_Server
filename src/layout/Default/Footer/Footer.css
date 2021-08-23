@@ -17,9 +17,9 @@
 }
 
 #footerContent{
-    height: 150px;
+    height: 100%;
 
-    padding: 15px;
+    padding: 25px;
 
     display: flex;
     flex-direction: column;
