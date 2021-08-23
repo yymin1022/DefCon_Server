@@ -20,11 +20,9 @@
     height: 150px;
 
     padding: 15px;
-    
+
     display: flex;
     flex-direction: column;
-
-    align-items: right;
     justify-content: space-between;
 }
 
