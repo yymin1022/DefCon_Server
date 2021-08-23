@@ -35,3 +35,8 @@
     content: ' ';
     float: left;
 }
+
+#spanName{
+    font-size: 12pt;
+    color: gray;
+}
