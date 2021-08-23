@@ -23,6 +23,7 @@
     background-color: #43C6AC;
     font-size: 20pt;
     font-weight: bold;
+    block-size: 100%;
 }
 
 #divIntro{
@@ -33,4 +34,9 @@
 #divMemberIntroduction{
     content: ' ';
     float: left;
+}
+
+#spanName{
+    font-size: 12pt;
+    color: gray;
 }
