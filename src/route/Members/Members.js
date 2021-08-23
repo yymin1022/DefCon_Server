@@ -13,7 +13,7 @@ function Profile(props) {
           </div>
           <div id="divMemberIntroduction">
           <h2>{ props.name }</h2>
-          <p><span>{ props.school }</span></p>
+          <p><span>{ props.group }</span></p>
           <p>{ props.intro }</p>
           </div>
           <br></br>
@@ -26,10 +26,10 @@ const Members = () => {
         <div id="divMemberIntroduction">
             <p><span id="spanMembersBar">Members</span></p>
             <div id="divMember">
-                <Profile img = {Lr} name = {"LR"} school = {"중앙대학교 19학번"} intro = {"대한민국 공군 ROKAF"}/>
-                <Profile img = {Haren} name = {"HarenKei"} school = {"대림대학교 19학번"} intro = {"대한민국 육군 ROKA"}/>
-                <Profile img = {Caret} name = {"Caret"} school = {"안양대학교 19학번"} intro = {"대한민국 사회복무요원"}/>
-                <Profile img = {V4bel} name = {"V4BEL"} school = {"NULL"} intro = {"Defnit팀 소속으로 CTF 참가"}/>
+                <Profile img = {Lr} name = {"LR"} group = {"중앙대학교 19학번 / 대한민국 공군 ROKAF "} intro = {"집에가고싶겠다"}/>
+                <Profile img = {Haren} name = {"HarenKei"} group = {"대림대학교 19학번 / 대한민국 육군 ROKA "} intro = {"코딩하십쇼 저누님..."}/>
+                <Profile img = {Caret} name = {"Caret"} group = {"안양대학교 19학번 / 대한민국 사회복무요원 ROK Social Agent "} intro = {"Caret이 [ ] 하면 망한다"}/>
+                <Profile img = {V4bel} name = {"V4BEL"} group = {"Defnit"} intro = {"킹왕짱 해커"}/>
             </div>
         </div>
     )

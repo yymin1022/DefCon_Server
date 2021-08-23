@@ -11,12 +11,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 5px 5px grey;;
 }
 
 #divMemberImage img{
-    height:100px;
-    width: 100px;
-    transform: rotate(10deg);
+    height:150px;
+    width: 150px;
 }
 
 #spanMembersBar{
