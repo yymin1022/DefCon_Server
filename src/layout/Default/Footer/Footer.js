@@ -15,12 +15,12 @@ const Footer = () => {
 
             <div className="footerItem" id="footerContent">
                 <div id="footerPrivacy">
-                    <p>
+                    <p className="pFooterText">
                         Def:Con 개인정보 처리방침
                     </p>
                 </div>
                 <div id="footerCopyright">
-                    <p>
+                    <p className="pFooterText">
                         ©2021<br/>
                         Def:Con<br/>
                         ALLRIGHTSRESERVED
