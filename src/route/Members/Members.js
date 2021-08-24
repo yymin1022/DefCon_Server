@@ -23,7 +23,6 @@ function Profile(props) { {/*프로필 컴포넌트 함수*/}
     );
   }
 
-
 const Members = () => {
     return(
         <div id="divMemberIntroduction">

@@ -63,6 +63,7 @@
 #divIntroductionImage img{
     width: 300px;
     transform: rotate(10deg);
+    filter: drop-shadow(0px 5px 5px grey);
 }
 
 #divIntroductionText{
@@ -125,7 +126,6 @@
 
 .divWorkWrapper{
     width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
