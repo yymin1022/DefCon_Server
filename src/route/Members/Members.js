@@ -9,7 +9,7 @@ import Gesaegi from "../../images/Defcon_crab.svg";
 
 function Profile(props) { {/*프로필 컴포넌트 함수*/} 
     return (
-      <div id="divIntro"> {/*프로필 이미지와 소개 내용을 묶어주는 div*/}
+      <div id="divIntro" /*onClick={()}*/ > {/*프로필 이미지와 소개 내용을 묶어주는 div*/}
           <div id="divMemberImage">
               <img src={ props.img }/>
           </div>
@@ -37,7 +37,7 @@ const Members = () => {
                 <Profile img = {V4bel} nickname = {"V4BEL"} name = {"김현우"} group = {"Defnit"} intro = {"킹왕짱 해커"}/>
             </div>
 
-            <div id="divCrab"> {/*게새기를 배치하기 위한 div*/}
+            <div id="divCrab"> {/*게새기와 멤버들의 이력을 배치하기 위한 div*/}
                 <img src={ Gesaegi } />
             </div>
             </div>
