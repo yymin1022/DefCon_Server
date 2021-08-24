@@ -10,13 +10,12 @@ const Header = () => {
     return (
         <div className="Header">
             <div id="headerLogo">
-                <img src={DefconLogo} />
+                <Link to={"/"}>
+                    <img src={DefconLogo} />
+                </Link>
             </div>
 
             <div id="headerNav">
-                <Link to={"/"}>
-                    <p>Home</p>
-                </Link>
                 <Link to={"/members"}>
                     <p>Members</p>
                 </Link>
