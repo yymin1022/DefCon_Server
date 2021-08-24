@@ -6,10 +6,6 @@
     margin-bottom: 70px;
 }
 
-#divMemberImage{
-    
-}
-
 #divMemberImage img{
     height :150px;
     width : 150px;
@@ -23,10 +19,6 @@
     justify-content: space-between;
 }
 
-#divCrab{
-    z-index: -1;
-}
-
 #divCrab img{
     width: 500px;
     height:100%;
@@ -35,42 +27,18 @@
     filter: drop-shadow(0px 5px 5px grey);
 }
 
-#divMemberItro{
-}
-
-#divMember{
-    display: inline-block;
-    
-}
-
 #spanMemberTitle{
     padding: 10px;
     background-color: #43C6AC;
     color: #FFFFFF;
     font-size: 30px;
 }
+
 #divIntro:hover{
     box-shadow: 0px 5px 5px grey;
 }
-
-
-
-/*
-#divIntro{
-    display: block;
-    width: 700;
-    height: 300;
-    margin: 0 -5px;
-}
-
-
-
-
 
 #spanName{
     font-size: 12pt;
     color: gray;
 }
-
-
-*/
