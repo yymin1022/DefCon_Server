@@ -83,18 +83,18 @@ const Members = () => {
                                     profileOnClick = viewHrRecord;
                                     break;
                             }
-                                return(
-                                    <div onClick={profileOnClick}>
-                                        <Profile
-                                            group={item.group}
-                                            img={profileImage}
-                                            intro={item.intro}
-                                            name={item.name}
-                                            nickname={item.nickname} />
-                                    </div>
-                                )
-                            }
-                        )
+
+                            return(
+                                <div onClick={profileOnClick}>
+                                    <Profile
+                                        group={item.group}
+                                        img={profileImage}
+                                        intro={item.intro}
+                                        name={item.name}
+                                        nickname={item.nickname} />
+                                </div>
+                            )
+                        })
                     }
                 </div>
 
