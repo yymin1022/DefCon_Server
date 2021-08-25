@@ -89,7 +89,7 @@ const Members = () => {
                 <div id="divHistory">
                     <div id="divHistoryContent">
                         {
-                            historyData.items.map(item => {
+                            historyData.map(item => {
                                 console.log(item);
                             })
                         }
