@@ -60,38 +60,42 @@ const Members = () => {
             <div id="divContainer">
                 {/*멤버의 소개를 보여주는 div*/}
                 <div id="divMember">
-                    <div id="yym" onClick={viewLrRecord}>
-                        <Profile
-                            img={Lr}
-                            nickname={"LR"}
-                            name={"유용민"}
-                            group={"중앙대학교 19학번 / 대한민국 공군 ROKAF "}
-                            intro={"Android, Web"} />
-                    </div>
-                    <div id ="jsm" onClick={viewHrRecord}>
-                        <Profile
-                            img={Haren}
-                            nickname={"HarenKei"}
-                            name={"정승민"}
-                            group={"대림대학교 19학번 / 대한민국 육군 ROKA "}
-                            intro={"Python Chatbot, Design, Web, iOS"} />
-                    </div>
-                    <div id ="kyh" onClick={viewCrRecord}>
-                        <Profile
-                            img={Caret}
-                            nickname={"Caret"}
-                            name={"김영현"}
-                            group={"안양대학교 19학번 / 대한민국 사회복무요원 ROK Social Agent "}
-                            intro={"Android, Web"}/>
-                    </div>
-                    <div id="khw" onClick={viewVbRecord}>
-                        <Profile
-                            img={V4bel}
-                            nickname={"V4BEL"}
-                            name={"김현우"}
-                            group={"Defnit"}
-                            intro={"킹왕짱 해커"}/>
-                    </div>
+                    {
+                        ProfileData.map(item => {
+                            let profileOnClick;
+                            let profileImage;
+
+                            switch(item.name){
+                                case "김영현":
+                                    profileImage = imgCaret;
+                                    profileOnClick = viewCrRecord;
+                                    break;
+                                case "김현우":
+                                    profileImage = imgV4bel;
+                                    profileOnClick = viewVbRecord;
+                                    break;
+                                case "유용민":
+                                    profileImage = imgLR;
+                                    profileOnClick = viewLrRecord;
+                                    break;
+                                case "정승민":
+                                    profileImage = imgHaren;
+                                    profileOnClick = viewHrRecord;
+                                    break;
+                            }
+                                return(
+                                    <div onClick={profileOnClick}>
+                                        <Profile
+                                            group={item.group}
+                                            img={profileImage}
+                                            intro={item.intro}
+                                            name={item.name}
+                                            nickname={item.nickname} />
+                                    </div>
+                                )
+                            }
+                        )
+                    }
                 </div>
 
                 {/*게새기와 멤버들의 이력을 배치하기 위한 div*/}
