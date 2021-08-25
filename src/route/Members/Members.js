@@ -32,17 +32,17 @@ const Profile = (props) => {
   
 const Members = () => {
     const [MemberRecord, setMemberRecord] = useState("");
-    const viewLrRecord = () => {
-        console.log("LR");
+    const viewLrRecord = (historyData) => {
+        console.log(historyData);
     }
-    const viewHrRecord = () => {
-        console.log("Haren");
+    const viewHrRecord = (historyData) => {
+        console.log(historyData);
     }
-    const viewCrRecord = () => {
-        console.log("Caret");
+    const viewCrRecord = (historyData) => {
+        console.log(historyData);
     }
-    const viewVbRecord = () => {
-        console.log("V4bel");
+    const viewVbRecord = (historyData) => {
+        console.log(historyData);
     }
 
     return(
@@ -68,19 +68,19 @@ const Members = () => {
                             switch(item.name){
                                 case "김영현":
                                     profileImage = imgCaret;
-                                    profileOnClick = viewCrRecord;
+                                    profileOnClick = viewCrRecord(item.history);
                                     break;
                                 case "김현우":
                                     profileImage = imgV4bel;
-                                    profileOnClick = viewVbRecord;
+                                    profileOnClick = viewVbRecord(item.history);
                                     break;
                                 case "유용민":
                                     profileImage = imgLR;
-                                    profileOnClick = viewLrRecord;
+                                    profileOnClick = viewLrRecord(item.history);
                                     break;
                                 case "정승민":
                                     profileImage = imgHaren;
-                                    profileOnClick = viewHrRecord;
+                                    profileOnClick = viewHrRecord(item.history);
                                     break;
                             }
 
