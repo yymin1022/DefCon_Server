@@ -84,8 +84,12 @@ const Members = () => {
                                     break;
                             }
 
+                            const profileOnClickTest = () => {
+                                console.log(item.history);
+                            }
+
                             return(
-                                <div onClick={profileOnClick}>
+                                <div onClick={profileOnClickTest}>
                                     <Profile
                                         group={item.group}
                                         img={profileImage}
