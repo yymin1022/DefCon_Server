@@ -97,8 +97,8 @@ const Members = () => {
 
                                 return(
                                     <div id="divHistoryItem">
-                                        <p>{item["date"]}</p>
-                                        <p>{item["content"]}</p>
+                                        <p id="pHistoryItemDate">{item["date"]}</p>
+                                        <p id="pHistoryItemContent">{item["content"]}</p>
                                     </div>
                                 )
                             })
