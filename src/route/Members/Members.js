@@ -93,6 +93,8 @@ const Members = () => {
                     <div id="divHistoryContent">
                         {
                             historyData.map(item => {
+                                console.log(item);
+
                                 return(
                                     <div id="divHistoryItem">
                                         <p>{item["date"]}</p>
