@@ -31,17 +31,17 @@ const Profile = (props) => {
 
   
 const Members = () => {
-    const [MemberRecord, setMemberRecord]=useState(0);
-    const viewLrRecord=() => {
+    const [MemberRecord, setMemberRecord] = useState("");
+    const viewLrRecord = () => {
         console.log("LR");
     }
-    const viewHrRecord=() => {
+    const viewHrRecord = () => {
         console.log("Haren");
     }
-    const viewCrRecord=() => {
+    const viewCrRecord = () => {
         console.log("Caret");
     }
-    const viewVbRecord=() => {
+    const viewVbRecord = () => {
         console.log("V4bel");
     }
 
