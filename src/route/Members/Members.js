@@ -1,11 +1,13 @@
 import React, {useState} from "react";
-
 import CrabLogo from "../../images/Defcon_crab.svg";
 import imgLR from "../../images/LR.png";
 import imgHaren from "../../images/HarenKei.jpeg";
 import imgCaret from "../../images/caret.png";
 import imgV4bel from "../../images/v4bel.jpeg";
 import ProfileData from "./ProfileData.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 import "./Members.css";
 
@@ -79,7 +81,6 @@ const Members = () => {
                                     <Profile
                                         group={item.group}
                                         img={profileImage}
-                                        intro={item.intro}
                                         name={item.name}
                                         nickname={item.nickname} />
                                 </div>

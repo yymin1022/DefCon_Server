@@ -3,8 +3,10 @@
         "name": "유용민",
         "nickname": "LR",
         "group": "중앙대학교 19학번 / 대한민국 공군 ROKAF",
-        "intro": "대학생 1인 개발자",
         "history": [
+            {
+                "content":"대학생 1인 개발자"
+            },
             {
                 "date": "201412",
                 "content": "선린인터넷고 정보영재교육원 수료"
@@ -99,8 +101,11 @@
         "name": "정승민",
         "nickname": "Haren",
         "group": "대림대학교 19학번 / 대한민국 육군 ROKA",
-        "intro": "대학생 1인 개발자",
         "history": [
+            {
+                "content":"대학생 1인 개발자"
+            },
+            
             {
                 "date": "202003",
                 "content": "대한민국 육군 8사단 이동통신장비 운용/정비"
@@ -115,8 +120,10 @@
         "name": "김영현",
         "nickname": "Caret",
         "group": "안양대학교 19학번 / 대한민국 사회복무요원 ROK Social Agent",
-        "intro": "대학생 1인 개발자",
         "history": [
+            {
+                "content":"대학생 1인 개발자"
+            },
             {
                 "date": "202105",
                 "content": "대한민국 사회복무요원"
@@ -131,8 +138,10 @@
         "name": "김현우",
         "nickname": "V4bel",
         "group": "Definit",
-        "intro": "대학생 1인 개발자",
         "history": [
+            {
+                "content":"대학생 1인 개발자"
+            },
             {
                 "date": "201704",
                 "content": "와.. 킹갓;;"
