@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";ㅎㅇ
 import "./Members.css";
 import Lr from "../../images/LR.png";
 import Haren from "../../images/HarenKei.jpeg";
