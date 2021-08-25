@@ -95,8 +95,8 @@ const Members = () => {
                             historyData.map(item => {
                                 return(
                                     <div id="divHistoryItem">
-                                        <p>{item.date}</p>
-                                        <p>{item.content}</p>
+                                        <p>{item[date]}</p>
+                                        <p>{item[content]}</p>
                                     </div>
                                 )
                             })
