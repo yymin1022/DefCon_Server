@@ -89,6 +89,9 @@ const Members = () => {
                 <div id="divHistory">
                     <div id="divHistoryContent">
                         {
+                            for(item in historyData){
+                                
+                            }
                             historyData.map(item => {
                                 return(
                                     <div id="divHistoryItem">
