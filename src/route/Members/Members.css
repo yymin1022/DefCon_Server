@@ -44,3 +44,8 @@
     font-size: 12pt;
     color: gray;
 }
+
+#divHistoryItem{
+    display: flex;
+    flex-direction: row;
+}
