@@ -68,7 +68,6 @@ const Members = () => {
                             }
 
                             const profileOnClick = () => {
-                                console.log(item.history);
                                 setHistoryData(item.history);
                             }
 
