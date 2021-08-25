@@ -99,8 +99,13 @@ const Members = () => {
                 </div>
 
                 {/*게새기와 멤버들의 이력을 배치하기 위한 div*/}
-                <div id="divCrab">
-                    <img src={CrabLogo} />
+                <div id="divHistory">
+                    <div id="divHistoryContent">
+                        <p>History Zone</p>
+                    </div>
+                    <div id="divCrab">
+                        <img src={CrabLogo} />
+                    </div>
                 </div>
             </div>
         </div>
