@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 
 import CrabLogo from "../../images/Defcon_crab.svg";
 import imgLR from "../../images/LR.png";
@@ -31,19 +31,7 @@ const Profile = (props) => {
 
   
 const Members = () => {
-    const [MemberRecord, setMemberRecord] = useState("");
-    const viewLrRecord = () => {
-        console.log("LR");
-    }
-    const viewHrRecord = () => {
-        console.log("Haren");
-    }
-    const viewCrRecord = () => {
-        console.log("Caret");
-    }
-    const viewVbRecord = () => {
-        console.log("V4bel");
-    }
+    const [historyData, setHistoryData] = useState("Click Profile!");
 
     return(
         <div id="divMemberIntroduction">
@@ -62,34 +50,29 @@ const Members = () => {
                 <div id="divMember">
                     {
                         ProfileData.map(item => {
-                            let profileOnClick;
                             let profileImage;
 
                             switch(item.name){
                                 case "김영현":
                                     profileImage = imgCaret;
-                                    profileOnClick = viewCrRecord;
                                     break;
                                 case "김현우":
                                     profileImage = imgV4bel;
-                                    profileOnClick = viewVbRecord;
                                     break;
                                 case "유용민":
                                     profileImage = imgLR;
-                                    profileOnClick = viewLrRecord;
                                     break;
                                 case "정승민":
                                     profileImage = imgHaren;
-                                    profileOnClick = viewHrRecord;
                                     break;
                             }
 
-                            const profileOnClickTest = () => {
-                                console.log(item.history);
+                            const profileOnClick = () => {
+                                setHistoryData(item.history);
                             }
 
                             return(
-                                <div onClick={profileOnClickTest}>
+                                <div onClick={profileOnClick}>
                                     <Profile
                                         group={item.group}
                                         img={profileImage}
@@ -105,7 +88,7 @@ const Members = () => {
                 {/*게새기와 멤버들의 이력을 배치하기 위한 div*/}
                 <div id="divHistory">
                     <div id="divHistoryContent">
-                        <p>History Zone<br/>TESTINGTESTINGTESTING<br/>TESTINGTESTINGTESTINGTESTINGTESTING</p>
+                        <p>{historyData}</p>
                     </div>
                     <div id="divCrab">
                         <img src={CrabLogo} />
