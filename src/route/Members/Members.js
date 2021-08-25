@@ -32,8 +32,8 @@ const Profile = (props) => {
   
 const Members = () => {
     const [historyData, setHistoryData] = useState([{
-                                                        "date": "BEFORE",
-                                                        "content": "CLICK!!!"
+                                                        "date": "",
+                                                        "content": ""
                                                     }]);
 
     return(
