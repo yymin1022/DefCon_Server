@@ -31,7 +31,7 @@ const Profile = (props) => {
 
   
 const Members = () => {
-    const [historyData, setHistoryData] = useState("Click Profile!");
+    const [historyData, setHistoryData] = useState({"DATA": "Before Click"});
 
     return(
         <div id="divMemberIntroduction">
@@ -68,7 +68,7 @@ const Members = () => {
                             }
 
                             const profileOnClick = () => {
-                                setHistoryData(item.history[0]);
+                                setHistoryData(item.history);
                             }
 
                             return(
@@ -88,7 +88,11 @@ const Members = () => {
                 {/*게새기와 멤버들의 이력을 배치하기 위한 div*/}
                 <div id="divHistory">
                     <div id="divHistoryContent">
-                        <p>{historyData}</p>
+                        {
+                            {historyData}.map(item => {
+                                console.log(item);
+                            })
+                        }
                     </div>
                     <div id="divCrab">
                         <img src={CrabLogo} />
