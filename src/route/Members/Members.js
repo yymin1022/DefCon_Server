@@ -31,7 +31,10 @@ const Profile = (props) => {
 
   
 const Members = () => {
-    const [historyData, setHistoryData] = useState([{"DATA": "Before Click"}]);
+    const [historyData, setHistoryData] = useState([{
+                                                        "date": "BEFORE",
+                                                        "content": "CLICK!!!"
+                                                    }]);
 
     return(
         <div id="divMemberIntroduction">
@@ -89,13 +92,11 @@ const Members = () => {
                 <div id="divHistory">
                     <div id="divHistoryContent">
                         {
-                            for(item in historyData){
-                                
-                            }
                             historyData.map(item => {
                                 return(
                                     <div id="divHistoryItem">
-                                        <p>{item}</p>
+                                        <p>{item.date}</p>
+                                        <p>{item.content}</p>
                                     </div>
                                 )
                             })
