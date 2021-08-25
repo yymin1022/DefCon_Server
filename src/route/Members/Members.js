@@ -101,7 +101,7 @@ const Members = () => {
                 {/*게새기와 멤버들의 이력을 배치하기 위한 div*/}
                 <div id="divHistory">
                     <div id="divHistoryContent">
-                        <p>History Zone</p>
+                        <p>History Zone<br/>TESTINGTESTINGTESTING<br/>TESTINGTESTINGTESTINGTESTINGTESTING</p>
                     </div>
                     <div id="divCrab">
                         <img src={CrabLogo} />
