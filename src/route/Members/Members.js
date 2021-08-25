@@ -68,7 +68,7 @@ const Members = () => {
                             }
 
                             const profileOnClick = () => {
-                                setHistoryData(item.history);
+                                setHistoryData(item.nickname);
                             }
 
                             return(
