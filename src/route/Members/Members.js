@@ -31,7 +31,7 @@ const Profile = (props) => {
 
   
 const Members = () => {
-    const [historyData, setHistoryData] = useState({"DATA": "Before Click"});
+    const [historyData, setHistoryData] = useState([{"DATA": "Before Click"}]);
 
     return(
         <div id="divMemberIntroduction">
