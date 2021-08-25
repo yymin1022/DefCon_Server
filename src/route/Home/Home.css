@@ -27,6 +27,10 @@
     width: 300px;
 
     transform: rotate(10deg);
+
+    filter:drop-shadow(0px 5px 5px grey);
+
+    z-index:-1;
 }
 
 #divAwardText{
@@ -63,6 +67,8 @@
 #divIntroductionImage img{
     width: 300px;
     transform: rotate(10deg);
+    filter: drop-shadow(0px 5px 5px grey);
+    z-index: -1;
 }
 
 #divIntroductionText{
@@ -121,11 +127,11 @@
 
 .divWorkItemImage img{
     height: 100%;
+    
 }
 
 .divWorkWrapper{
     width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
