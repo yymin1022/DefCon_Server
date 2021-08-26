@@ -30,11 +30,18 @@
 
 #divCrab img{
     width: 500px;
-    height:100%;
+    height:80%;
     transform: rotate(-10deg);
     opacity: 0.5;
     filter: drop-shadow(0px 5px 5px grey);
-    z-index: -1;
+}
+
+#divCrab{
+    position: fixed;
+    top:180px;
+    right:100px;
+    left:1000px;
+    z-index:-10;
 }
 
 #spanMemberTitle{
@@ -53,7 +60,13 @@
     color: gray;
 }
 
+#divHistory{
+
+}
+
 #divHistoryItem{
+    position:relative;
+    z-index:1;
     display: flex;
     flex-direction: row;
 }
