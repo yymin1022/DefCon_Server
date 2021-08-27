@@ -5,7 +5,9 @@ import ProjectData from "./ProjectData.json";
 import "./Projects.css";
 
 const ProjectItem = (props) => {
-    <dd><p>&gt;_{props.title} ({props.year}) - {props.user}</p></dd>
+    return(
+        <dd><p>&gt;_{props.title} ({props.year}) - {props.user}</p></dd>
+    )
 }
 
 const Projects = () => {
