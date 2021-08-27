@@ -5,9 +5,16 @@ import ProjectData from "./ProjectData.json";
 import "./Projects.css";
 
 const ProjectItem = (props) => {
-    return(
-        <dd><p>&gt;_{props.title} ({props.year}) - {props.user}</p></dd>
-    )
+    if(props.url !== "None"){
+        return(
+            <dd><p>&gt;_{props.title} ({props.year}) - {props.user} / <a href={props.url}>Github</a></p></dd>
+        )
+    }else{
+        return(
+            <dd><p>&gt;_{props.title} ({props.year}) - {props.user}</p></dd>
+        )
+    }
+    
 }
 
 const Projects = () => {
@@ -24,8 +31,9 @@ const Projects = () => {
                                     return(
                                         <ProjectItem 
                                             title={projectItem.title}
-                                            year={projectItem.year}
+                                            url={projectItem.url}
                                             user={projectItem.user}
+                                            year={projectItem.year}
                                         />
                                     );
                                 })}
