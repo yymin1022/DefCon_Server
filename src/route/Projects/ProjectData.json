@@ -1,0 +1,67 @@
+[
+    {
+        "type": "Android",
+        "projects": [
+            {
+                "title": "Always On Display",
+                "user": "LR",
+                "year": "2016"
+            },
+            {
+                "title": "택시미터기",
+                "user": "LR",
+                "year": "2019"
+            },
+            {
+                "title": "Soul Rest",
+                "user": "LR, Haren, Caret",
+                "year": "2019"
+            }
+        ]
+    },
+    {
+        "type": "Web",
+        "projects": [
+            {
+                "title": "LR's IT Blog",
+                "user": "LR",
+                "year": "2021"
+            },
+            {
+                "title": "Wa.. Chat Bot API",
+                "user": "LR",
+                "year": "2021"
+            },
+            {
+                "title": "Def:Con Web Page",
+                "user": "LR, Haren, Caret",
+                "year": "2021"
+            }
+        ]
+    },
+    {
+        "type": "Self Repair",
+        "projects": [
+            {
+                "title": "iPhone 6S Assemble",
+                "user": "LR, Haren",
+                "year": "2019"
+            },
+            {
+                "title": "G-Shock Battery Change",
+                "user": "LR, Haren",
+                "year": "2020"
+            },
+            {
+                "title": "iPhone X Assemble",
+                "user": "LR",
+                "year": "2020"
+            },
+            {
+                "title": "iPod Classic 5th U2 Edition Assemble",
+                "user": "LR",
+                "year": "2021 Coming Soon..!"
+            }
+        ]
+    }
+]
