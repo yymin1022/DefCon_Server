@@ -10,16 +10,20 @@ const Projects = () => {
             <dl>
                 {
                     ProjectData.map(item => {
-                        <>
-                            <dt><h2>&gt;_{item.type}</h2></dt>
+                        return(
+                            <>
+                                <dt><h2>&gt;_{item.type}</h2></dt>
 
-                            {item.projects.map(projectItem => {
-                                <dd><p>&gt;_{projectItem.title} ({projectItem.year}) - {projectItem.user}</p></dd>
-                            })}
+                                {item.projects.map(projectItem => {
+                                    return(
+                                        <dd><p>&gt;_{projectItem.title} ({projectItem.year}) - {projectItem.user}</p></dd>
+                                    );
+                                })}
 
-                            <dd><p>&gt;_More...</p></dd>
-                            <br/><br/>
-                        </>
+                                <dd><p>&gt;_More...</p></dd>
+                                <br/><br/>
+                            </>
+                        );
                     })
                 }
             </dl>
