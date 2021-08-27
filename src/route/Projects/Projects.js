@@ -4,6 +4,10 @@ import ProjectData from "./ProjectData.json";
 
 import "./Projects.css";
 
+const ProjectItem = (props) => {
+    <dd><p>&gt;_{props.title} ({props.year}) - {props.user}</p></dd>
+}
+
 const Projects = () => {
     return(
         <>
@@ -16,7 +20,11 @@ const Projects = () => {
 
                                 {item.projects.map(projectItem => {
                                     return(
-                                        <dd><p>&gt;_{projectItem.title} ({projectItem.year}) - {projectItem.user}</p></dd>
+                                        <ProjectItem 
+                                            title={projectItem.title}
+                                            year={projectItem.year}
+                                            user={projectItem.user}
+                                        />
                                     );
                                 })}
 
