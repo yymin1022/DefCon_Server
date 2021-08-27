@@ -4,16 +4,19 @@
         "projects": [
             {
                 "title": "Always On Display",
+                "url": "https://github.com/yymin1022/AlwaysOnDisplay",
                 "user": "LR",
                 "year": "2016"
             },
             {
                 "title": "택시미터기",
+                "url": "https://github.com/yymin1022/Taxi-Meter",
                 "user": "LR",
                 "year": "2019"
             },
             {
                 "title": "Soul Rest",
+                "url": "https://github.com/yymin1022/SeoulHealing",
                 "user": "LR, Haren, Caret",
                 "year": "2019"
             }
@@ -24,16 +27,19 @@
         "projects": [
             {
                 "title": "LR's IT Blog",
+                "url": "https://github.com/yymin1022/Blog_LR",
                 "user": "LR",
                 "year": "2021"
             },
             {
                 "title": "Wa.. Chat Bot API",
+                "url": "https://github.com/yymin1022/Wa_API",
                 "user": "LR",
                 "year": "2021"
             },
             {
                 "title": "Def:Con Web Page",
+                "url": "https://github.com/yymin1022/DefCon_Server",
                 "user": "LR, Haren, Caret",
                 "year": "2021"
             }
