@@ -9,7 +9,7 @@ import ProfileData from "./ProfileData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHome } from '@fortawesome/free-solid-svg-icons'
-import { fab, faGithub, faInstagram, faFacebook, faTwitter, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
+import { fab, faGithub, faInstagram, faFacebook, faTwitter, faGooglePlay, faGit } from "@fortawesome/free-brands-svg-icons";
 
 import "./Members.css";
 
@@ -35,8 +35,13 @@ const Profile = (props) => {
 
 const NavSNS = (props) => {
     return(
-        <>
-        </>
+        <div id="divSocial">
+            <a href={props.urlBlog} target="_sub"><FontAwesomeIcon icon={faHome} color="black" size="2x"/></a>
+            <a href={props.urlFacebook} target="_sub"><FontAwesomeIcon icon={faFacebook} color="black" size="2x"/></a>
+            <a href={props.urlGithub} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="2x"/></a>
+            <a href={props.urlInstagram} target="_sub"><FontAwesomeIcon icon={faInstagram} color="black" size="2x"/></a>
+            <a href={props.urlTwitter} target="_sub"><FontAwesomeIcon icon={faTwitter} color="black" size="2x"/></a>
+        </div>
     )
 }
 
@@ -92,7 +97,11 @@ const Members = () => {
                             }
 
                             item.sns.map(snsItem => {
-                                console.log(snsItem.blog)
+                                urlBlog = snsItem.blog;
+                                urlFacebook = snsItem.facebook;
+                                urlGithub = snsItem.github;
+                                urlInstagram = snsItem.instagram;
+                                urlTwitter = snsItem.twitter;
                             })
 
                             return(
@@ -102,19 +111,12 @@ const Members = () => {
                                         img={profileImage}
                                         name={item.name}
                                         nickname={item.nickname} />
-                                    {/* <NavSNS 
+                                    <NavSNS 
                                         urlBlog={urlBlog}
                                         urlFacebook={urlFacebook}
                                         urlGithub={urlGithub}
                                         urlInstagram={urlInstagram}
-                                        urlTwitter={urlTwitter} /> */}
-                                    {/* <div id="divSocial">
-                                    <a href={githubPath} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="2x"/></a>
-                                    <a href={fabookPath} target="_sub"><FontAwesomeIcon icon={faFacebook} color="black" size="2x"/></a>
-                                    <a href={twitterPath} target="_sub"><FontAwesomeIcon icon={faTwitter} color="black" size="2x"/></a>
-                                    <a href={instaPath} target="_sub"><FontAwesomeIcon icon={faInstagram} color="black" size="2x"/></a>
-                                    <a href={blogPath} target="_sub"><FontAwesomeIcon icon={faHome} color="black" size="2x"/></a>
-                                    </div> */}
+                                        urlTwitter={urlTwitter} />
                                 </div>
                             )
                         })
