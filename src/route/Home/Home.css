@@ -118,7 +118,7 @@
 }
 
 .divWorkItemImage{
-    height: 200px;
+    height: 170px;
     width: 100%;
 
     display: flex;
@@ -166,7 +166,7 @@
     font-size: 20px;
 
     margin-bottom: 0;
-    margin-top: 5px;
+    margin-top: 50px;
 }
 
 #pWorkTitle{
