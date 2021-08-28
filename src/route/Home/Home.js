@@ -5,6 +5,12 @@ import DefconLogoDefault from "../../images/Defcon_logo_default.svg";
 import DefconLogoSplit from "../../images/Defcon_logo_split.svg";
 import SeoulRestLogo from "../../images/SeoulRest_Icon.png";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { fab, faAndroid, faApple, faYoutube } from "@fortawesome/free-brands-svg-icons";
+
+
 import "./Home.css";
 
 const Home = () => {
@@ -55,7 +61,7 @@ const Home = () => {
                     <div className="divWorkWrapper">
                         <div className="divWorkItem" id="divWorkAndroid">
                             <div className="divWorkItemImage">
-                                <img src={SeoulRestLogo} />
+                                <FontAwesomeIcon icon={faAndroid} color="black" size="4x"/>
                             </div>
                             <div className="divWorkItemText">
                                 <p id="pWorkItemText">
