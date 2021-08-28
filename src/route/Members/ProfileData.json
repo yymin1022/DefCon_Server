@@ -122,15 +122,51 @@
         "group": "안양대학교 19학번 / 대한민국 사회복무요원 ROK Social Agent",
         "history": [
             {
-                "content":"대학생 1인 개발자"
+                "content":"봄버맨"
+            },
+            {
+                "date": "201211",
+                "content": "갤럭시 넥서스 구입 (그 이후 프로세서를 만든 OMAP이 모바일 전자기기 부분에서 철수)"
+            },
+            {
+                "date": "201601",
+                "content": "ASUS Zenfone2 구입 (그 이후 프로세서를 만든 인텔이 모바일 SoC 시장을 포기)"
+            },
+            {
+                "date": "201605",
+                "content": "EyeManager 앱 GooglePlay 출시 (업데이트 중단)"
+            },
+            {
+                "date": "201706",
+                "content": "Assistive Window 앱 GooglePlay 출시 (업데이트 중단)"
+            },
+            {
+                "date": "201901",
+                "content": "Simple & Fast Text Memo 앱 GooglePlay 출시 (업데이트 중단 / Google에서 삭제)"
+            },
+            {
+                "date": "201902",
+                "content": "LG V35 구입 (2년 뒤 LG 모바일 사업부 철수)"
+            },
+            {
+                "date": "201910",
+                "content": "서울시 스마트모바일 앱 공모전 참가 (그 이후 공모전 개최 중단)"
+            },
+            {
+                "date": "202010",
+                "content": "'편-안' 앱 GooglePlay 출시"
             },
             {
                 "date": "202105",
-                "content": "대한민국 사회복무요원"
+                "content": "대한민국 사회복무요원 / 요양원 노예"
+            },
+            {
+                "date": "202108",
+                "content": "갤럭시 s20 구입 (현재 진행 중)"
             },
             {
                 "date": "202302",
-                "content": "집 감"
+                "content": "소집해제"
             }
         ]
     },
