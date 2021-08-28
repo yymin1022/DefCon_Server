@@ -14,7 +14,7 @@
         ],
         "history": [
             {
-                "content": "대학생 1인 개발자"
+                "date": "대학생 1인 개발자"
             },
             {
                 "date": "201412",
@@ -112,25 +112,80 @@
         "group": "대림대학교 19학번 / 대한민국 육군 ROKA",
         "sns": [
             {
-                "blog": "",
-                "facebook": "",
+                "blog": "https://heibondk.tistory.com",
+                "facebook": "https://www.facebook.com/profile.php?id=100008194504454",
                 "github": "https://github.com/harenkei",
                 "instagram": "https://instagram.com/min_from00",
-                "twitter": "https://twitter.com/harenkei"
+                "twitter": "https://twitter.com/HarenDev"
             }
         ],
         "history": [
             {
-                "content":"대학생 1인 개발자"
+                "date":"대학생 1인 개발자, Python 사랑함, DEF:CON 한정 디자이너"
             },
-            
+            {
+                "date":"201603",
+                "content":"서울디지텍고등학교 유비쿼터스과 입학"
+            },
+            {
+                "date":"201604",
+                "content":"서울디지텍고등학교 해킹보안 동아리 'ROOT'활동"
+            },
+            {
+                "date":"201703",
+                "content":"서울디지텍고등학교 탈주(닌자) 후 서울 성보고등학교 전입"
+            },
+            {
+                "date":"201704",
+                "content":"성보고등학교 프로그래밍 동아리 DEF:CON에 납치당함(ㄷㄷ)"
+            },
+            {
+                "date":"201708",
+                "content":"성보고등학교 수학의 날 행사에 퀴즈용 C 프로그램 제작 ㄷㄷ"
+            },
+            {
+                "date":"2017언젠가",
+                "content":"DEF:CON 로고 만들어줌 (나 좀 멋진듯?)"
+            },
+            {
+                "date":"2018언젠가",
+                "content":"성보고등학교 축제 DEF:CON 부스에 모니터를 들고옴 (수고많았다 나 자신..)"
+            },
+            {
+                "date":"201903",
+                "content":"대림대학교 컴퓨터정보학부 입학"
+            },
+            {
+                "date":"201905",
+                "content":"Python으로 서울 지하철 이용자 순위 워드클라우드 제작"
+            },
+            {
+                "date":"201910",
+                "content":"대림테크페어 출품용 '스마트홈' 모형 내 시스템 구축"
+            },
+            {
+                "date":"201911",
+                "content":"2019 스마트서울 모바일 앱 공모전 출품작 'Soul Rest' 디자인함 (꼴에 그것도 디자인이라고...)"
+            },
             {
                 "date": "202003",
-                "content": "대한민국 육군 8사단 이동통신장비 운용/정비"
+                "content": "대한민국 육군 제 8기동사단 기술행정병 이동통신장비 운용/정비 복무 시작"
             },
             {
                 "date": "202108",
-                "content": "집 감"
+                "content": "코로나19 장기화로 현지전역 휴가 출발"
+            },
+            {
+                "date":"202108",
+                "content": "DEF:CON 로고 리뉴얼, 이걸 또 제가 해냅니다 여러분;;"
+            },
+            {
+                "date":"202108",
+                "content":"DEF:CON 웹 리뉴얼에서 현 페이지 담당함... 근데 황제님이 캐리해줌"
+            },
+            {
+                "date":"202109",
+                "content":"대한민국 육군 병장 만기전역"
             }
         ]
     },
@@ -149,7 +204,7 @@
         ],
         "history": [
             {
-                "content":"봄버맨"
+                "date":"봄버맨"
             },
             {
                 "date": "201211",
@@ -200,7 +255,7 @@
     {
         "name": "김현우",
         "nickname": "V4bel",
-        "group": "Defnit",
+        "group": "DEFENIT",
         "sns": [
             {
                 "blog": "https://kimvabel.tistory.com",
@@ -212,7 +267,7 @@
         ],
         "history": [
             {
-                "content":"대학생 1인 개발자"
+                "date":"인프런에서 정보보안 강의하는 킹갓 해커"
             },
             {
                 "date": "201704",
