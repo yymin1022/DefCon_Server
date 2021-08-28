@@ -36,11 +36,21 @@ const Profile = (props) => {
 const NavSNS = (props) => {
     return(
         <div id="divSocial">
-            <a href={props.urlBlog} target="_sub"><FontAwesomeIcon icon={faHome} color="black" size="2x"/></a>
-            <a href={props.urlFacebook} target="_sub"><FontAwesomeIcon icon={faFacebook} color="black" size="2x"/></a>
-            <a href={props.urlGithub} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="2x"/></a>
-            <a href={props.urlInstagram} target="_sub"><FontAwesomeIcon icon={faInstagram} color="black" size="2x"/></a>
-            <a href={props.urlTwitter} target="_sub"><FontAwesomeIcon icon={faTwitter} color="black" size="2x"/></a>
+            if(props.urlBlog !== ""){
+                <a href={props.urlBlog} target="_sub"><FontAwesomeIcon icon={faHome} color="black" size="2x"/></a>
+            }
+            if(props.urlFacebook !== ""){
+                <a href={props.urlFacebook} target="_sub"><FontAwesomeIcon icon={faFacebook} color="black" size="2x"/></a>
+            }
+            if(props.urlGithub !== ""){
+                <a href={props.urlGithub} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="2x"/></a>
+            }
+            if(props.urlInstagram !== ""){
+                <a href={props.urlInstagram} target="_sub"><FontAwesomeIcon icon={faInstagram} color="black" size="2x"/></a>
+            }
+            if(props.urlTwitter !== ""){
+                <a href={props.urlTwitter} target="_sub"><FontAwesomeIcon icon={faTwitter} color="black" size="2x"/></a>
+            }
         </div>
     )
 }
@@ -84,7 +94,7 @@ const Members = () => {
                                 urlInstagram = snsItem.instagram;
                                 urlTwitter = snsItem.twitter;
                             })
-                            
+
                             switch(item.name){
                                 case "김영현":
                                     profileImage = imgCaret;
