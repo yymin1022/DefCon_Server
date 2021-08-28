@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import {If, Then} from "react-if";
+
 import CrabLogo from "../../images/Defcon_crab.svg";
 import imgLR from "../../images/LR.png";
 import imgHaren from "../../images/HarenKei.jpeg";
@@ -36,21 +38,31 @@ const Profile = (props) => {
 const NavSNS = (props) => {
     return(
         <div id="divSocial">
-            if(props.urlBlog !== ""){
-                <a href={props.urlBlog} target="_sub"><FontAwesomeIcon icon={faHome} color="black" size="2x"/></a>
-            }
-            if(props.urlFacebook !== ""){
-                <a href={props.urlFacebook} target="_sub"><FontAwesomeIcon icon={faFacebook} color="black" size="2x"/></a>
-            }
-            if(props.urlGithub !== ""){
-                <a href={props.urlGithub} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="2x"/></a>
-            }
-            if(props.urlInstagram !== ""){
-                <a href={props.urlInstagram} target="_sub"><FontAwesomeIcon icon={faInstagram} color="black" size="2x"/></a>
-            }
-            if(props.urlTwitter !== ""){
-                <a href={props.urlTwitter} target="_sub"><FontAwesomeIcon icon={faTwitter} color="black" size="2x"/></a>
-            }
+            <If condition={props.urlBlog !== ""}>
+                <Then>
+                    <a href={props.urlBlog} target="_sub"><FontAwesomeIcon icon={faHome} color="black" size="2x"/></a>
+                </Then>
+            </If>
+            <If condition={props.urlFacebook !== ""}>
+                <Then>
+                    <a href={props.urlFacebook} target="_sub"><FontAwesomeIcon icon={faFacebook} color="black" size="2x"/></a>
+                </Then>
+            </If>
+            <If condition={props.urlGithub !== ""}>
+                <Then>
+                    <a href={props.urlGithub} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="2x"/></a>
+                </Then>
+            </If>
+            <If condition={props.urlInstagram !== ""}>
+                <Then>
+                    <a href={props.urlInstagram} target="_sub"><FontAwesomeIcon icon={faInstagram} color="black" size="2x"/></a>
+                </Then>
+            </If>
+            <If condition={props.urlTwitter !== ""}>
+                <Then>
+                    <a href={props.urlTwitter} target="_sub"><FontAwesomeIcon icon={faTwitter} color="black" size="2x"/></a>
+                </Then>
+            </If>
         </div>
     )
 }
