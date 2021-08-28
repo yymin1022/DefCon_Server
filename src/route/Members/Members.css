@@ -76,3 +76,14 @@
 
     margin-right: 10px;
 }
+
+#divProfile{
+    display: flex;
+    flex-flow: nowrap column;
+    
+
+}
+
+#divSocial{
+    flex-basis: 100%;
+}

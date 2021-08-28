@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from "react-router-dom";
 import CrabLogo from "../../images/Defcon_crab.svg";
 import imgLR from "../../images/LR.png";
 import imgHaren from "../../images/HarenKei.jpeg";
@@ -7,7 +8,8 @@ import imgV4bel from "../../images/v4bel.jpeg";
 import ProfileData from "./ProfileData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { fab, faGithub, faInstagram, faFacebook, faTwitter, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 
 import "./Members.css";
 
@@ -56,19 +58,28 @@ const Members = () => {
                     {
                         ProfileData.map(item => {
                             let profileImage;
+                            let githubPath;
+                            let fabookPath;
+                            let twitterPath;
+                            let instaPath;
+                            let blogPath;
 
                             switch(item.name){
                                 case "김영현":
                                     profileImage = imgCaret;
+                                    githubPath = "https://github.com/rdg1029";
                                     break;
                                 case "김현우":
                                     profileImage = imgV4bel;
+                                    githubPath = "https://github.com/v4bel";
                                     break;
                                 case "유용민":
                                     profileImage = imgLR;
+                                    githubPath = "https://github.com/yymin1022"
                                     break;
                                 case "정승민":
                                     profileImage = imgHaren;
+                                    githubPath = "https://github.com/harenkei";
                                     break;
                             }
 
@@ -77,12 +88,19 @@ const Members = () => {
                             }
 
                             return(
-                                <div onClick={profileOnClick}>
+                                <div id="divProfile" onClick={profileOnClick}>
                                     <Profile
                                         group={item.group}
                                         img={profileImage}
                                         name={item.name}
                                         nickname={item.nickname} />
+                                    <div id="divSocial">
+                                    <a href={githubPath} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="2x"/></a>
+                                    <a href={fabookPath} target="_sub"><FontAwesomeIcon icon={faFacebook} color="black" size="2x"/></a>
+                                    <a href={twitterPath} target="_sub"><FontAwesomeIcon icon={faTwitter} color="black" size="2x"/></a>
+                                    <a href={instaPath} target="_sub"><FontAwesomeIcon icon={faInstagram} color="black" size="2x"/></a>
+                                    <a href={blogPath} target="_sub"><FontAwesomeIcon icon={faHome} color="black" size="2x"/></a>
+                                    </div>
                                 </div>
                             )
                         })
