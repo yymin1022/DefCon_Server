@@ -31,7 +31,14 @@ const Profile = (props) => {
             </div>
         </>
     );
-  }
+}
+
+const NavSNS = (props) => {
+    return(
+        <>
+        </>
+    )
+}
 
   
 const Members = () => {
@@ -58,34 +65,35 @@ const Members = () => {
                     {
                         ProfileData.map(item => {
                             let profileImage;
-                            let githubPath;
-                            let fabookPath;
-                            let twitterPath;
-                            let instaPath;
-                            let blogPath;
+
+                            let urlBlog;
+                            let urlFacebook;
+                            let urlGithub;
+                            let urlInstagram
+                            let urlTwitter;
 
                             switch(item.name){
                                 case "김영현":
                                     profileImage = imgCaret;
-                                    githubPath = "https://github.com/rdg1029";
                                     break;
                                 case "김현우":
                                     profileImage = imgV4bel;
-                                    githubPath = "https://github.com/v4bel";
                                     break;
                                 case "유용민":
                                     profileImage = imgLR;
-                                    githubPath = "https://github.com/yymin1022"
                                     break;
                                 case "정승민":
                                     profileImage = imgHaren;
-                                    githubPath = "https://github.com/harenkei";
                                     break;
                             }
 
                             const profileOnClick = () => {
                                 setHistoryData(item.history);
                             }
+
+                            item.sns.map(snsItem => {
+                                console.log(snsItem.blog)
+                            })
 
                             return(
                                 <div id="divProfile" onClick={profileOnClick}>
@@ -94,13 +102,19 @@ const Members = () => {
                                         img={profileImage}
                                         name={item.name}
                                         nickname={item.nickname} />
-                                    <div id="divSocial">
+                                    {/* <NavSNS 
+                                        urlBlog={urlBlog}
+                                        urlFacebook={urlFacebook}
+                                        urlGithub={urlGithub}
+                                        urlInstagram={urlInstagram}
+                                        urlTwitter={urlTwitter} /> */}
+                                    {/* <div id="divSocial">
                                     <a href={githubPath} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="2x"/></a>
                                     <a href={fabookPath} target="_sub"><FontAwesomeIcon icon={faFacebook} color="black" size="2x"/></a>
                                     <a href={twitterPath} target="_sub"><FontAwesomeIcon icon={faTwitter} color="black" size="2x"/></a>
                                     <a href={instaPath} target="_sub"><FontAwesomeIcon icon={faInstagram} color="black" size="2x"/></a>
                                     <a href={blogPath} target="_sub"><FontAwesomeIcon icon={faHome} color="black" size="2x"/></a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )
                         })
