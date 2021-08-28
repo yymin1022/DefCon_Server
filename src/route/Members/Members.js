@@ -77,6 +77,14 @@ const Members = () => {
                             let urlInstagram
                             let urlTwitter;
 
+                            item.sns.map(snsItem => {
+                                urlBlog = snsItem.blog;
+                                urlFacebook = snsItem.facebook;
+                                urlGithub = snsItem.github;
+                                urlInstagram = snsItem.instagram;
+                                urlTwitter = snsItem.twitter;
+                            })
+                            
                             switch(item.name){
                                 case "김영현":
                                     profileImage = imgCaret;
@@ -95,14 +103,6 @@ const Members = () => {
                             const profileOnClick = () => {
                                 setHistoryData(item.history);
                             }
-
-                            item.sns.map(snsItem => {
-                                urlBlog = snsItem.blog;
-                                urlFacebook = snsItem.facebook;
-                                urlGithub = snsItem.github;
-                                urlInstagram = snsItem.instagram;
-                                urlTwitter = snsItem.twitter;
-                            })
 
                             return(
                                 <div id="divProfile" onClick={profileOnClick}>
