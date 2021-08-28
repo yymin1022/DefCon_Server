@@ -5,6 +5,8 @@ import DefconLogoDefault from "../../images/Defcon_logo_default.svg";
 import DefconLogoSplit from "../../images/Defcon_logo_split.svg";
 import SeoulRestLogo from "../../images/SeoulRest_Icon.png";
 
+
+
 import AndroidLogo from "../../images/android.svg";
 import AppleLogo from "../../images/apple.svg";
 import ChatBubble from "../../images/chat.svg";
