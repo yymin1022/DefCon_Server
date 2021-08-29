@@ -25,12 +25,9 @@ const Profile = (props) => {
                 </div>
 
                 <div id="divMemberInfo">
-                    {/*멤버 소개글을 묶어주는 div*/}
-                    <div id="divMemberIntro">
-                        <h2>{props.nickname}  |  <span id="spanName">{props.name}</span></h2>
-                        <p><span>{props.group}</span></p>
-                        <p>{props.intro}</p>
-                    </div>
+                    <h2>{props.nickname}  |  <span id="spanName">{props.name}</span></h2>
+                    <p><span>{props.group}</span></p>
+                    <p>{props.intro}</p>
 
                     {/* 멤버별 SNS URL div */}
                     <NavSNS 
