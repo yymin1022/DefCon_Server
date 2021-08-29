@@ -1,4 +1,14 @@
-#divIntro{ /*프로필 이미지와 소개글을 묶어주는 div에 flex 속성 적용, #divIntro는 flex-container의 역할을 수행함*/
+/*게새기와 멤버소개 div을 묶어주는 flex-container*/
+#divContainer{
+    margin-top:30px;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: left;
+    cursor: pointer;
+}
+
+/*프로필 이미지와 소개글을 묶어주는 div에 flex 속성 적용, #divIntro는 flex-container의 역할을 수행함*/
+#divIntro{
     display : flex;
     flex-flow : nowrap row;
     justify-content : start;
@@ -6,8 +16,8 @@
     margin-bottom: 70px;
 }
 
-#divHistory{
-    width: 50%;
+#divIntro:hover{
+    box-shadow: 0px 5px 5px grey;
 }
 
 #divMember{
@@ -20,21 +30,6 @@
     box-shadow : 0px 5px 5px grey;
     margin-right: 30px;
 }
-#divContainer { /*게새기와 멤버소개 div을 묶어주는 flex-container*/
-    margin-top:30px;
-    display: flex;
-    flex-flow: nowrap row;
-    justify-content: left;
-    cursor: pointer;
-}
-
-#divCrab img{
-    width: 500px;
-    height:80%;
-    transform: rotate(-10deg);
-    opacity: 0.5;
-    filter: drop-shadow(0px 5px 5px grey);
-}
 
 #divCrab{
     position: fixed;
@@ -44,37 +39,12 @@
     z-index:-10;
 }
 
-#spanMemberTitle{
-    padding: 10px;
-    background-color: #43C6AC;
-    color: #FFFFFF;
-    font-size: 30px;
-}
-
-#divIntro:hover{
-    box-shadow: 0px 5px 5px grey;
-}
-
-#spanName{
-    font-size: 12pt;
-    color: gray;
-}
-
-#divHistory{
-
-}
-
-#divHistoryItem{
-    position:relative;
-    z-index:1;
-    display: flex;
-    flex-direction: row;
-}
-
-#pHistoryItemDate{
-    font-weight: 900;
-
-    margin-right: 10px;
+#divCrab img{
+    width: 500px;
+    height:80%;
+    transform: rotate(-10deg);
+    opacity: 0.5;
+    filter: drop-shadow(0px 5px 5px grey);
 }
 
 #divProfile{
@@ -88,4 +58,33 @@
 
 #divMemberSocial a{
     margin: 0px 5px 0px 5px;
+}
+
+#divHistory{
+    width: 50%;
+}
+
+#divHistoryItem{
+    position:relative;
+    z-index:1;
+    display: flex;
+    flex-direction: row;
+}
+
+#spanMemberTitle{
+    padding: 10px;
+    background-color: #43C6AC;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+#spanName{
+    font-size: 12pt;
+    color: gray;
+}
+
+#pHistoryItemDate{
+    font-weight: 900;
+
+    margin-right: 10px;
 }
