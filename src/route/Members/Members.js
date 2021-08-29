@@ -24,11 +24,21 @@ const Profile = (props) => {
                     <img src={props.img}/>
                 </div>
 
-                {/*멤버 소개글을 묶어주는 div*/}
-                <div id="divMemberIntro">
-                    <h2>{props.nickname}  |  <span id="spanName">{props.name}</span></h2>
-                    <p><span>{props.group}</span></p>
-                    <p>{props.intro}</p>
+                <div id="divMemberInfo">
+                    {/*멤버 소개글을 묶어주는 div*/}
+                    <div id="divMemberIntro">
+                        <h2>{props.nickname}  |  <span id="spanName">{props.name}</span></h2>
+                        <p><span>{props.group}</span></p>
+                        <p>{props.intro}</p>
+                    </div>
+
+                    {/* 멤버별 SNS URL div */}
+                    <NavSNS 
+                        urlBlog={props.urlBlog}
+                        urlFacebook={props.urlFacebook}
+                        urlGithub={props.urlGithub}
+                        urlInstagram={props.urlInstagram}
+                        urlTwitter={props.urlTwitter} />
                 </div>
             </div>
         </>
@@ -37,7 +47,7 @@ const Profile = (props) => {
 
 const NavSNS = (props) => {
     return(
-        <div id="divSocial">
+        <div id="divMemberSocial">
             <If condition={props.urlBlog !== ""}>
                 <Then>
                     <a href={props.urlBlog} target="_sub"><FontAwesomeIcon icon={faHome} color="black" size="2x"/></a>
@@ -132,13 +142,12 @@ const Members = () => {
                                         group={item.group}
                                         img={profileImage}
                                         name={item.name}
-                                        nickname={item.nickname} />
-                                    <NavSNS 
+                                        nickname={item.nickname}
                                         urlBlog={urlBlog}
                                         urlFacebook={urlFacebook}
                                         urlGithub={urlGithub}
                                         urlInstagram={urlInstagram}
-                                        urlTwitter={urlTwitter} />
+                                        urlTwitter={urlTwitter}  />
                                 </div>
                             )
                         })
