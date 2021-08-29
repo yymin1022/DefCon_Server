@@ -18,19 +18,19 @@ const Header = () => {
             </div>
 
             <div id="headerNav">
-                <Link to={"/"}>
+                <Link to={"/"} style={{ textDecoration: 'none' }}>
                     <div id="divRightMenu">
                         <FontAwesomeIcon icon={ faHome } color="#43C6AC" size="2x"/>
                         <p id="pTextLink">Home</p>
                     </div>
                 </Link>
-                <Link to={"/members"}>
+                <Link to={"/members"} style={{ textDecoration: 'none' }}>
                     <div id="divRightMenu">
                         <FontAwesomeIcon icon={ faUsers } color="#43C6AC" size="2x"/>
                         <p id="pTextLink">Members</p>
                     </div>
                 </Link>
-                <Link to={"/projects"}>
+                <Link to={"/projects"} style={{ textDecoration: 'none' }}>
                     <div id="divRightMenu">
                         <FontAwesomeIcon icon={ faPencilAlt } color="#43C6AC" size="2x"/>
                         <p id="pTextLink">Project</p>

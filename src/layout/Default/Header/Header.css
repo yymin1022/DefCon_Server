@@ -28,7 +28,7 @@
 
 #headerNav{
     height: 100%;
-    padding: 15px;
+    padding: 18px;
 
     display: flex;
     flex-direction: row;
@@ -36,26 +36,27 @@
     align-items: center;
 }
 
-#headerNav a{
-    margin: 5px;
-}
 
 #divRightMenu{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 80px;
-    flex-basis: 100px;
     align-items: center;
+    width: 70px;
+    height: 80px;
 
 }
 
 #divRightMenu:hover{
+    border-radius: 15%;
     box-shadow: 0px 0px 5px grey;
 }
 
 #pTextLink{
-    text-decoration: none;
+    text-decoration-line: none;
     color: black;
 
+}
+
+a:visited{
+    text-decoration-line: none;
 }
