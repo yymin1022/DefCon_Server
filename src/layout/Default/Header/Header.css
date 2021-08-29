@@ -1,5 +1,5 @@
 .Header{
-    height: 75px;
+    height: 80px;
     width: 100%;
 
     padding-left: 15px;
@@ -14,6 +14,8 @@
 
     background-color: #FFFFFF;
     z-index:50;
+
+    box-shadow: 0px 0px 10px black;
 }
 
 #headerLogo{
@@ -28,7 +30,8 @@
 
 #headerNav{
     height: 100%;
-    padding: 18px;
+    padding-top: 5px;
+    padding-right: 20px;
 
     display: flex;
     flex-direction: row;
@@ -41,8 +44,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70px;
-    height: 80px;
+    width: 80px;
+    height: 60px;
 
 }
 
@@ -54,6 +57,7 @@
 #pTextLink{
     text-decoration-line: none;
     color: black;
+    margin: 0;
 
 }
 
