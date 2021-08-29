@@ -5,6 +5,18 @@ import DefconLogoDefault from "../../images/Defcon_logo_default.svg";
 import DefconLogoSplit from "../../images/Defcon_logo_split.svg";
 import SeoulRestLogo from "../../images/SeoulRest_Icon.png";
 
+
+
+import AndroidLogo from "../../images/android.svg";
+import AppleLogo from "../../images/apple.svg";
+import ChatBubble from "../../images/chat.svg";
+import RepairTools from "../../images/settings.svg";
+import CTFlag from "../../images/flag.svg";
+import More from "../../images/more.svg";
+import WebIcon from "../../images/global.svg";
+import Youtube from "../../images/youtube.svg";
+
+
 import "./Home.css";
 
 const Home = () => {
@@ -55,7 +67,7 @@ const Home = () => {
                     <div className="divWorkWrapper">
                         <div className="divWorkItem" id="divWorkAndroid">
                             <div className="divWorkItemImage">
-                                <img src={SeoulRestLogo} />
+                                <img src={AndroidLogo}/>
                             </div>
                             <div className="divWorkItemText">
                                 <p id="pWorkItemText">
@@ -65,7 +77,7 @@ const Home = () => {
                         </div>
                         <div className="divWorkItem" id="divWorkIos">
                             <div className="divWorkItemImage">
-                                <img src={SeoulRestLogo} />
+                                <img src={AppleLogo} />
                             </div>
                             <div className="divWorkItemText">
                                 <p id="pWorkItemText">
@@ -75,7 +87,7 @@ const Home = () => {
                         </div>
                         <div className="divWorkItem" id="divWorkWeb">
                             <div className="divWorkItemImage">
-                                <img src={SeoulRestLogo} />
+                                <img src={WebIcon} />
                             </div>
                             <div className="divWorkItemText">
                                 <p id="pWorkItemText">
@@ -85,7 +97,7 @@ const Home = () => {
                         </div>
                         <div className="divWorkItem" id="divWorkRepair">
                             <div className="divWorkItemImage">
-                                <img src={SeoulRestLogo} />
+                                <img src={RepairTools} />
                             </div>
                             <div className="divWorkItemText">
                                 <p id="pWorkItemText">
@@ -97,7 +109,7 @@ const Home = () => {
                     <div className="divWorkWrapper">
                         <div className="divWorkItem" id="divWorkSecurity">
                             <div className="divWorkItemImage">
-                                <img src={SeoulRestLogo} />
+                                <img src={CTFlag} />
                             </div>
                             <div className="divWorkItemText">
                                 <p id="pWorkItemText">
@@ -106,7 +118,7 @@ const Home = () => {
                             </div>
                         </div><div className="divWorkItem" id="divWorkChatbot">
                             <div className="divWorkItemImage">
-                                <img src={SeoulRestLogo} />
+                                <img src={ChatBubble} />
                             </div>
                             <div className="divWorkItemText">
                                 <p id="pWorkItemText">
@@ -115,7 +127,7 @@ const Home = () => {
                             </div>
                         </div><div className="divWorkItem" id="divWorkYoutube">
                             <div className="divWorkItemImage">
-                                <img src={SeoulRestLogo} />
+                                <img src={Youtube} />
                             </div>
                             <div className="divWorkItemText">
                                 <p id="pWorkItemText">
@@ -124,7 +136,7 @@ const Home = () => {
                             </div>
                         </div><div className="divWorkItem" id="divWorkOther">
                             <div className="divWorkItemImage">
-                                <img src={SeoulRestLogo} />
+                                <img src={More} />
                             </div>
                             <div className="divWorkItemText">
                                 <p id="pWorkItemText">
