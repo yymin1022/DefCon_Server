@@ -47,6 +47,7 @@
     width: 80px;
     height: 60px;
 
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 #divRightMenu:hover{
