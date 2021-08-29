@@ -80,10 +80,12 @@
 #divProfile{
     display: flex;
     flex-flow: nowrap column;
-    
-
 }
 
 #divMemberSocial{
     flex-basis: 100%;
+}
+
+#divMemberSocial a{
+    margin: 0px 5px 0px 5px;
 }
