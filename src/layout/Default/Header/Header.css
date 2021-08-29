@@ -28,33 +28,34 @@
 
 #headerNav{
     height: 100%;
-
     padding: 15px;
 
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
 }
 
 #headerNav a{
     margin: 5px;
 }
 
-.divRightMenu{
+#divRightMenu{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 80px;
     flex-basis: 100px;
+    align-items: center;
 
 }
 
-.divRightMenu:hover{
+#divRightMenu:hover{
     box-shadow: 0px 0px 5px grey;
 }
 
-.pTextLink{
+#pTextLink{
     text-decoration: none;
     color: black;
-    flex-direction: row;
-    
+
 }

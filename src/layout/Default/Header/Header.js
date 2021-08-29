@@ -19,21 +19,21 @@ const Header = () => {
 
             <div id="headerNav">
                 <Link to={"/"}>
-                    <div class="divRightMenu">
+                    <div id="divRightMenu">
                         <FontAwesomeIcon icon={ faHome } color="#43C6AC" size="2x"/>
-                        <p class="pTextLink">Home</p>
+                        <p id="pTextLink">Home</p>
                     </div>
                 </Link>
                 <Link to={"/members"}>
-                    <div class="divRightMenu">
+                    <div id="divRightMenu">
                         <FontAwesomeIcon icon={ faUsers } color="#43C6AC" size="2x"/>
-                        <p class="pTextLink">Members</p>
+                        <p id="pTextLink">Members</p>
                     </div>
                 </Link>
                 <Link to={"/projects"}>
-                    <div class="divRightMenu">
+                    <div id="divRightMenu">
                         <FontAwesomeIcon icon={ faPencilAlt } color="#43C6AC" size="2x"/>
-                        <p class="pTextLink">Project</p>
+                        <p id="pTextLink">Project</p>
                     </div>
                 </Link>
             </div>
