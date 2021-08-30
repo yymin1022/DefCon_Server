@@ -2,12 +2,17 @@ import React from "react";
 
 import ProjectData from "./ProjectData.json";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab, faGithub, faGooglePlay} from "@fortawesome/free-brands-svg-icons";
+
+import CrabLogo from "../../images/Defcon_crab.svg";
+
 import "./Projects.css";
 
 const ProjectItem = (props) => {
     if(props.url !== "None"){
         return(
-            <dd><p>&gt;_{props.title} ({props.year}) - {props.user} / <a href={props.url}>Github</a></p></dd>
+            <dd><p>&gt;_{props.title} ({props.year}) - {props.user} / <a href={props.url}><FontAwesomeIcon icon={faGithub} color="black" size="1x"/></a></p></dd>
         )
     }else{
         return(
