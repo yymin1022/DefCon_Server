@@ -1,3 +1,18 @@
 #divProject{
     width: 100%;
 }
+
+#divContent{ /*Flex - Container*/
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+#divPjct{ /*Flex -item1*/
+
+}
+
+#divIcon{ /*Flex - item2*/
+    margin-left:5px;
+}

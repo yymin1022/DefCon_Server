@@ -6,14 +6,21 @@ import ProjectData from "./ProjectData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab, faGithub, faGooglePlay} from "@fortawesome/free-brands-svg-icons";
 
-import CrabLogo from "../../images/Defcon_crab.svg";
-
 import "./Projects.css";
 
 const ProjectItem = (props) => {
     
         return(
-            <dd><p>&gt;_{props.title} ({props.year}) - {props.user} / <NavUrl url = {props.url} store = {props.store}/></p></dd>)
+            <div id="divContent">
+                <div id="divPjct">
+                    <dd><p>&gt;_{props.title} ({props.year}) - {props.user} /</p></dd>
+                </div> 
+                
+                <div id="divIcon">
+                    <Url url = {props.url} store = {props.store}/>  
+                </div>
+            </div>
+        )
 }
 
 const Projects = () => {
@@ -31,6 +38,7 @@ const Projects = () => {
                                         <ProjectItem 
                                             title={projectItem.title}
                                             url={projectItem.url}
+                                            store={projectItem.store}
                                             user={projectItem.user}
                                             year={projectItem.year}
                                         />
@@ -48,11 +56,11 @@ const Projects = () => {
     )
 }
 
-const NavUrl = (props) => {
+const Url = (props) => {
 
     return(
-        <div id="divMemberSocial">
-            <If condition={props.url !== ""}>
+        <div>
+            <If condition={props.url !== "None"}>
                 <Then>
                     <a href={props.url} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="1x"/></a>
                 </Then>
