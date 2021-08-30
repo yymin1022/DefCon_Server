@@ -5,6 +5,7 @@ import ProjectData from "./ProjectData.json";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab, faGithub, faGooglePlay} from "@fortawesome/free-brands-svg-icons";
+import CrabLogo from "../../images/Defcon_crab.svg";
 
 import "./Projects.css";
 
@@ -18,6 +19,10 @@ const ProjectItem = (props) => {
                 
                 <div id="divIcon">
                     <Url url = {props.url} store = {props.store}/>  
+                </div>
+
+                <div id="divCrab">
+                    <img src={CrabLogo} />
                 </div>
             </div>
         )
