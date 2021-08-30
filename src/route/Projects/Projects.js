@@ -1,4 +1,5 @@
 import React from "react";
+import {If, Then} from "react-if";
 
 import ProjectData from "./ProjectData.json";
 
@@ -10,16 +11,9 @@ import CrabLogo from "../../images/Defcon_crab.svg";
 import "./Projects.css";
 
 const ProjectItem = (props) => {
-    if(props.url !== "None"){
-        return(
-            <dd><p>&gt;_{props.title} ({props.year}) - {props.user} / <a href={props.url}><FontAwesomeIcon icon={faGithub} color="black" size="1x"/></a></p></dd>
-        )
-    }else{
-        return(
-            <dd><p>&gt;_{props.title} ({props.year}) - {props.user}</p></dd>
-        )
-    }
     
+        return(
+            <dd><p>&gt;_{props.title} ({props.year}) - {props.user} / <NavUrl url = {props.url} store = {props.store}/></p></dd>)
 }
 
 const Projects = () => {
@@ -51,6 +45,24 @@ const Projects = () => {
                 }
             </dl>
         </>
+    )
+}
+
+const NavUrl = (props) => {
+
+    return(
+        <div id="divMemberSocial">
+            <If condition={props.url !== ""}>
+                <Then>
+                    <a href={props.url} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="1x"/></a>
+                </Then>
+            </If>
+            <If condition={props.store !== ""}>
+                <Then>
+                    <a href={props.store} target="_sub"><FontAwesomeIcon icon={faGooglePlay} color="black" size="lg"/></a>
+                </Then>
+            </If>
+        </div>
     )
 }
 
