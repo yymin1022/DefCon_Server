@@ -18,7 +18,7 @@ const ProjectItem = (props) => {
                 </div> 
                 
                 <div id="divIcon">
-                    <Url url = {props.url} store = {props.store}/>  
+                    <Url url = {props.url} store = {props.store}/>       
                 </div>
 
                 <div id="divCrab">
@@ -67,12 +67,12 @@ const Url = (props) => {
         <div>
             <If condition={props.url !== "None"}>
                 <Then>
-                    <a href={props.url} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="1x"/></a>
+                    <a href={props.url} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="1x"/>   </a>
                 </Then>
             </If>
             <If condition={props.store !== ""}>
                 <Then>
-                    <a href={props.store} target="_sub"><FontAwesomeIcon icon={faGooglePlay} color="black" size="lg"/></a>
+                    <a href={props.store} target="_sub"><FontAwesomeIcon icon={faGooglePlay} color="black" size="1x"/>   </a>
                 </Then>
             </If>
         </div>
