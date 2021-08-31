@@ -65,3 +65,17 @@
 a:visited{
     text-decoration-line: none;
 }
+
+@media screen and (max-width: 1350px) {
+    .Header{
+        height: 60px;
+        width: 100%;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #headerLogo img{
+        height: 30px;
+    }
+}
