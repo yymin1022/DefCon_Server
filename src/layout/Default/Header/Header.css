@@ -78,4 +78,13 @@ a:visited{
     #headerLogo img{
         height: 30px;
     }
+
+    #divRightMenu{
+        height: 40px;
+        width: 50px;
+    }
+
+    #pTextLink{
+        display: none;
+    }
 }
