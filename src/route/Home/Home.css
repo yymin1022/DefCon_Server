@@ -190,11 +190,24 @@
         width: 200px;
     }
 
+    #divAwardImage img{
+        width: 200px;
+    }
+    
+
     #divIntroduction{
         height: 900px;
     
         display: flex;
         flex-direction: column;
+    }
+
+    #divIntroductionImage{
+        width: 200px;
+    }
+
+    #divIntroductionImage img{
+        width: 200px;
     }
 
     #pAwardTextContent{
