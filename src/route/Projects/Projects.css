@@ -4,7 +4,7 @@
 
 #divContent{ /*Flex - Container*/
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: baseline;
 }
@@ -14,8 +14,7 @@
 }
 
 #divIcon{ /*Flex - item2*/
-    margin-left:5px;
-    margin-right:10px;
+    margin-left:10px;
 }
 
 a{
@@ -24,4 +23,21 @@ a{
 }
 a:visited{
     text-decoration-line: none;
+}
+
+@media screen and (max-width: 1350px) {
+    #divContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+
+    #divIcon{
+        margin-left:50px;
+    }
+
+    span{
+        display: none;
+    }
 }
