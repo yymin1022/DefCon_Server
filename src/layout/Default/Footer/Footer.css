@@ -43,3 +43,17 @@
 #footerLogo img{
     height: 100%;
 }
+
+@media screen and (max-width: 1350px){
+    .Footer{
+        height: 100px;
+    }
+
+    #footerContent p{
+        font-size: 12px;
+    }
+    
+    #footerLogo{
+        height: 75px;
+    }
+}
