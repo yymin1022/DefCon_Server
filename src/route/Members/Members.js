@@ -1,5 +1,4 @@
 import React, {useRef, useState} from "react";
-import { Link } from "react-router-dom";
 import {If, Then} from "react-if";
 
 import CrabLogo from "../../images/Defcon_crab.svg";
@@ -9,9 +8,8 @@ import imgCaret from "../../images/caret.png";
 import imgV4bel from "../../images/v4bel.jpeg";
 import ProfileData from "./ProfileData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHome } from '@fortawesome/free-solid-svg-icons'
-import { fab, faGithub, faInstagram, faFacebook, faTwitter, faGooglePlay, faGit } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import "./Members.css";
 
