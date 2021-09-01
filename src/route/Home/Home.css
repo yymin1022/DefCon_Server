@@ -178,6 +178,13 @@
 }
 
 @media screen and (max-width: 1350px) {
+    #divAward{
+        height: 600px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+
     #divIntroduction{
         height: 900px;
     
