@@ -227,4 +227,9 @@
         font-size: 40px;
         font-weight: 900;
     }
+
+    #pWorkTitle{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
