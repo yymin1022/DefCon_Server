@@ -52,7 +52,8 @@ const NavSNS = (props) => {
             </If>
             <If condition={props.urlFacebook !== ""}>
                 <Then>
-                    <a href={props.urlFacebook} target="_sub"><FontAwesomeIcon icon={faFacebook} color="black" size="lg"/></a>
+                    <a href={props.urlFacebook} target="_sub"><FontAwesomeIcon icon={faFacebook} color="b
+                    머지lack" size="lg"/></a>
                 </Then>
             </If>
             <If condition={props.urlGithub !== ""}>
