@@ -55,5 +55,7 @@
     
     #footerLogo{
         height: 75px;
+
+        padding: 0;
     }
 }
