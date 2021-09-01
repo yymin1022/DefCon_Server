@@ -177,5 +177,10 @@
 }
 
 @media screen and (max-width: 1350px) {
+    #divIntroduction{
+        height: 900px;
     
+        display: flex;
+        flex-direction: column;
+    }
 }
