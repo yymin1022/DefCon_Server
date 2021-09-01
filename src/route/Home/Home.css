@@ -184,4 +184,14 @@
         display: flex;
         flex-direction: column;
     }
+
+    #pIntroductionTextContent{
+        font-size: 20px;
+    }
+
+    #pIntroductionTextTitle{
+        color: #43C6AC;
+        font-size: 40px;
+        font-weight: 900;
+}
 }
