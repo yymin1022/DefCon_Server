@@ -133,7 +133,7 @@ const Members = () => {
                             }
 
                             const profileOnClick = () => {
-                                scrollToHistory();
+                                scrollToHistory;
                                 setHistoryData(item.history);
                             }
 
