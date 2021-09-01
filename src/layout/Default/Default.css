@@ -1,0 +1,17 @@
+html, body{
+    height: 100%;
+    font-family: "NanumSquare";
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0px;
+}
+
+#Container{
+    width: 100%;
+}
+
+.divSpacer{
+    height: 150px;
+}

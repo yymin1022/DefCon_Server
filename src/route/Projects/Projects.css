@@ -1,0 +1,43 @@
+#divProject{
+    width: 100%;
+}
+
+#divContent{ /*Flex - Container*/
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+#divPjct{ /*Flex -item1*/
+
+}
+
+#divIcon{ /*Flex - item2*/
+    margin-left:10px;
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+a:visited{
+    text-decoration-line: none;
+}
+
+@media screen and (max-width: 1350px) {
+    #divContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+
+    #divIcon{
+        margin-left:50px;
+    }
+
+    span{
+        display: none;
+    }
+}
