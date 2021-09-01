@@ -102,5 +102,8 @@
 }
 
 @media screen and (max-width: 1350px) {
-
+    #divContainer{
+        display: flex;
+        flex-flow: nowrap column;
+    }
 }
