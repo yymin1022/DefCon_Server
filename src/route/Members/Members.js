@@ -81,6 +81,9 @@ const Members = () => {
                                                         "content": ""
                                                     }]);
 
+    const historyRef = useRef(null);
+    const scrollToHistory = () => historyRef.current.scrollIntoView();
+
     return(
         <div id="divMemberIntroduction">
             {/*멤버 페이지 제목 바를 위한 div*/}
@@ -130,6 +133,7 @@ const Members = () => {
                             }
 
                             const profileOnClick = () => {
+                                scrollToHistory();
                                 setHistoryData(item.history);
                             }
 
