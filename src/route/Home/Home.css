@@ -178,6 +178,10 @@
     font-size: 35px;
 }
 
+#divWork{
+    height: 750px;
+}
+
 @media screen and (max-width: 1350px) {
     #divAward{
         height: 600px;
@@ -208,6 +212,15 @@
 
     #divIntroductionImage img{
         width: 200px;
+    }
+
+    #divWork{
+        height: 450px;
+    }
+
+    #divWorkContent{
+        height: 300px;
+        width: 100%;
     }
 
     .divWorkItem{
