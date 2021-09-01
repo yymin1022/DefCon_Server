@@ -133,12 +133,11 @@ const Members = () => {
                             }
 
                             const profileOnClick = () => {
-                                scrollToHistory;
                                 setHistoryData(item.history);
                             }
 
                             return(
-                                <div id="divProfile" onClick={profileOnClick}>
+                                <div id="divProfile" onClick={profileOnClick, scrollToHistory}>
                                     <Profile
                                         group={item.group}
                                         img={profileImage}
