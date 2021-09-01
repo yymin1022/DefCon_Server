@@ -38,7 +38,7 @@
     width: 100%;
 
     padding-left: 50px;
-    padding-lerft: 50px;
+    padding-right: 50px;
 
     display: flex;
     flex-direction: column;
@@ -197,6 +197,14 @@
         flex-direction: column;
     }
 
+    #pAwardTextContent{
+        font-size: 20px;
+    }
+    
+    #pAwardTextTitle{
+        font-size: 40px;
+    }
+
     #pIntroductionTextContent{
         font-size: 20px;
     }
@@ -205,5 +213,5 @@
         color: #43C6AC;
         font-size: 40px;
         font-weight: 900;
-}
+    }
 }
