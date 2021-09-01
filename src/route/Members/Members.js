@@ -82,7 +82,10 @@ const Members = () => {
                                                     }]);
 
     const historyRef = useRef(null);
-    const scrollToHistory = () => historyRef.current.scrollIntoView();
+    const scrollToHistory = () => historyRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
 
     return(
         <div id="divMemberIntroduction">
