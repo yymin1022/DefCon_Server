@@ -210,6 +210,16 @@
         width: 200px;
     }
 
+    .divWorkItem{
+        height: 100px;
+        width: 50px;
+    }
+    
+    .divWorkItemImage{
+        height: 50px;
+        width: 100%;
+    }
+
     #pAwardTextContent{
         font-size: 20px;
     }
