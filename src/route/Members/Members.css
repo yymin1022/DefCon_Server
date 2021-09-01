@@ -106,4 +106,12 @@
         display: flex;
         flex-flow: nowrap column;
     }
+
+    #divHistory{
+        width: 100%;
+    }
+
+    #divMember{
+        width: 100%;
+    }
 }
