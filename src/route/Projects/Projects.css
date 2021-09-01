@@ -4,7 +4,7 @@
 
 #divContent{ /*Flex - Container*/
     display:flex;
-    flex-flow: row nowrap;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: baseline;
 }
@@ -16,4 +16,12 @@
 #divIcon{ /*Flex - item2*/
     margin-left:5px;
     margin-right:10px;
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+a:visited{
+    text-decoration-line: none;
 }
