@@ -185,6 +185,10 @@
         flex-direction: column;
     }
 
+    #divAwardImage{
+        width: 200px;
+    }
+
     #divIntroduction{
         height: 900px;
     
