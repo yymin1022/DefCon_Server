@@ -76,6 +76,7 @@
     width: 100%;
 
     padding-left: 50px;
+    padding-right: 50px;
 
     display: flex;
     flex-direction: column;
