@@ -157,6 +157,10 @@ const Members = () => {
                     }
                 </div>
 
+                <div id="divComment">
+                    <p>{item.comment}</p>
+                </div>
+
                 {/*게새기와 멤버들의 이력을 배치하기 위한 div*/}
                 <div id="divHistory" ref={historyRef}> {/*게새기와 멤버 이력의 부모 div 요소*/}
                     <div id="divHistoryContent">
