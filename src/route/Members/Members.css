@@ -70,6 +70,14 @@
     margin: 0px 5px 0px 5px;
 }
 
+#divComment{
+    width: 100%;
+}
+
+#divComment p{
+    font-weight: 900;
+}
+
 #divHistory{
     width: 50%;
 }
