@@ -114,4 +114,12 @@
     #divMember{
         width: 100%;
     }
+
+    #pHistoryItemDate{
+        width: 75px;
+    }
+
+    #pHistoryItemContent{
+        width: 265px;
+    }
 }
