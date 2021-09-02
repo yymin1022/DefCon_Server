@@ -62,9 +62,8 @@ const Projects = () => {
 }
 
 const Url = (props) => {
-
     return(
-        <div>
+        <div className="divProjectURL">
             <If condition={props.url !== "None"}>
                 <Then>
                     <a href={props.url} target="_sub"><FontAwesomeIcon icon={faGithub} color="black" size="1.5x"/> GitHub       </a> 

@@ -9,10 +9,6 @@
     align-items: baseline;
 }
 
-#divPjct{ /*Flex -item1*/
-
-}
-
 #divIcon{ /*Flex - item2*/
     margin-left:10px;
 }
@@ -37,7 +33,7 @@ a:visited{
         margin-left:50px;
     }
 
-    span{
+    .divProjectURL span{
         display: none;
     }
 }
