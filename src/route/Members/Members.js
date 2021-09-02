@@ -75,6 +75,7 @@ const NavSNS = (props) => {
 
   
 const Members = () => {
+    const [commentData, setCommentData] = useState("");
     const [historyData, setHistoryData] = useState([{
                                                         "date": "",
                                                         "content": ""
@@ -136,6 +137,7 @@ const Members = () => {
 
                             const profileOnClick = () => {
                                 scrollToHistory();
+                                setCommentData(item.comment);
                                 setHistoryData(item.history);
                             }
 
@@ -158,7 +160,7 @@ const Members = () => {
                 </div>
 
                 <div id="divComment">
-                    <p>{item.comment}</p>
+                    <p>{commentData}</p>
                 </div>
 
                 {/*게새기와 멤버들의 이력을 배치하기 위한 div*/}

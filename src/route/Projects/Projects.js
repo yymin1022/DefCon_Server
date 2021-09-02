@@ -10,7 +10,6 @@ import CrabLogo from "../../images/Defcon_crab.svg";
 import "./Projects.css";
 
 const ProjectItem = (props) => {
-    
         return(
             <div id="divContent">
                 <div id="divPjct">
