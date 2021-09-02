@@ -33,7 +33,7 @@ a:visited{
         margin-left:50px;
     }
 
-    .divProjectURL span{
+    #spanSlash{
         display: none;
     }
 }
